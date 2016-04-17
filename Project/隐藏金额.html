@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-1.11.3.js"></script>
+</head>
+<body>
+	<ul class="selfMesTo clearfix">
+          <li class="list date"></li>
+          <li class="list">
+            <span class="hidNum">11</span>
+            <span>在投平台 </span>
+          </li>
+          <li class="list">
+            <span class="hidNum">10000</span>
+            <span>本月投资总额 </span>
+          </li>
+          <li class="list">
+            <span class="hidNum">5</span>
+            <span>本月投资总笔数 </span>
+          </li>
+          <li class="hid clearfix">
+            <img src="eye1.jpg" alt="" class="eye1">
+            <img src="eye.jpg" alt="" class="eye" style="display:none">
+            <span class="hidBtn">隐藏关键信息</span>
+          </li>
+        </ul>
+        <div class="selfMesDe clearfix">
+          <ul class="detailList clearfix">
+            <li>
+              <span class="hidNum">5</span>
+              <span>今日待收笔数</span>
+            </li>
+            <li>
+              <span class="hidNum">300</span>
+              <span>今日待收利息</span>
+            </li>
+            <li>
+              <span class="hidNum">5000</span>
+              <span>今日待收本金</span>
+            </li>
+            <li>
+              <span class="hidNum">100</span>
+              <span>今日待解冻返利 </span>
+            </li>
+          </ul>
+          <ul class="detailList clearfix">
+            <li>
+              <span class="hidNum">5</span>
+              <span>本月待收笔数</span>
+            </li>
+            <li>
+              <span class="hidNum">300</span>
+              <span>本月待收利息</span>
+            </li>
+            <li>
+              <span class="hidNum">5000</span>
+              <span>本月待收本金</span>
+            </li>
+            <li>
+              <span class="hidNum">100</span>
+              <span>本月待解冻返利  </span>
+            </li>
+          </ul>
+          <ul class="detailList clearfix">
+            <li>
+              <span class="hidNum">3000</span>
+              <span>本月奖励总额</span>
+            </li>
+            <li>
+              <span class="hidNum">300</span>
+              <span>本月活动奖励</span>
+            </li>
+            <li>
+              <span class="hidNum">5000</span>
+              <span>本月抽奖奖励</span>
+            </li>
+            <li>
+              <span class="hidNum">100</span>
+              <span>本月邀请好友奖励 </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+</body>
+<script>
+	var onoff = true;
+    var num = $('.hidNum').text();
+    var hidNum = $('.hidNum');
+    var arr = [];
+    for(var i = 0; i<hidNum.length; i++){
+       arr.push(hidNum[i].innerHTML);
+    };
+    $('.hid').click(function(){
+        if(onoff){
+          var num1 = num.substring(0,0)+'***';
+          $('.hidNum').text(num1);
+          $('.eye1').css('display','none');
+          $('.eye').css('display','block');
+          $('.hidBtn').text('显示相关信息');
+          onoff = !onoff;
+        }else{
+          for(var i = 0; i<hidNum.length; i++){
+            hidNum[i].innerHTML = arr[i];
+          };
+          $('.eye1').css('display','block');
+          $('.eye').css('display','none');
+          $('.hidBtn').text('隐藏相关信息');
+          onoff = !onoff;
+        }
+    });
+</script>
+</html>

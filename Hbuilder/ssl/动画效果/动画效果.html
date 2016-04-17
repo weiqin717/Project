@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<img src="pf1.png"/ id="img">
+		<p>&</p>
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+			var img=document.getElementById('img');
+			var n=1;
+			var timer=null;
+			timer=setInterval(function(){
+				n++;
+				img.src='pf'+n+'.png';
+				if(n==3) n=0;
+			},170)
+		}
+	</script>
+</html>

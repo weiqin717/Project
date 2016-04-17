@@ -1,0 +1,105 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: "微软雅黑";
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+  background: #f7f7f7;
+}
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/*平台*/
+.wrap{
+  width: 16rem;
+  padding-top: 0.95rem;
+}
+.plat{
+  width: 13.6rem;
+  height: 8.175rem;
+  padding-left: 0.625rem;
+  margin:0 auto;
+  margin-bottom: 0.95rem;
+  border: 0.025rem solid #bfbfbf;
+  border-radius: 0.05rem;
+}
+.title{
+  font-size: 0.65rem;
+  font-weight: normal;
+  color: #535353;
+  margin-top: 0.65rem;
+}
+.p_top{
+  margin-top: 0.65rem;
+}
+.p_top li{
+  float: left;
+  text-align: center;
+  color: #a9a9a9;
+}
+.p_top li:not(:last-child){
+  margin-right: 1.25rem;
+}
+.p_top p:nth-of-type(1){
+  font-size: 0.55rem;
+}
+.p_top p:nth-of-type(2){
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+.p_t_c{
+  font-size: 0.8rem;
+}
+.p_t_c1{
+  color: #00beff;
+}
+.p_t_c2{
+  color: #80be05;
+}
+.p_t_c3{
+  color: #959595;
+}
+.p_t_c4{
+  color: #ff7700;
+}
+.p_bottom{
+  margin-top: 0.5rem;
+}
+.p_mes{
+  float: left;
+}
+.p_mes li{
+  font:0.45rem/0.8rem "微软雅黑";
+  color: #6a6969;
+}
+.p_logo{
+  float: right;
+  margin-right: 1.2rem;
+  font-size: 0.45rem;
+  text-align: center;
+}
+.p_logo img{
+  width: 3.325rem;
+  height: 1.25rem;
+}
+.p_logo p{
+  margin-top: 0.4rem;
+  color: #706f6f;
+}
+.p_l_m span{
+  display: inline-block;
+  width: 2.75rem;
+  height: 0.6rem;
+  border: 0.025rem solid #c8c8c8;
+  border-radius: 0.25rem;
+  color: #a8a8a8;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--<input type="text" name="in" id="in" value="1" />-->
+		<input type="button" name="btn" id="btn" value="1" />
+		<ul id="oUl">
+			<li>1</li>
+		</ul>
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+//			var In = document.getElementById('in');
+			var btn = document.getElementById('btn');
+//			var v1 = In.getAttribute('value');
+//			var v2 = In.value;
+//			btn.onclick=function(){
+//				console.log(v1);
+//				console.log(v2);
+//			}
+			var oUl=document.getElementById('oUl');
+			var num = 1;
+			btn.onclick=function(){
+				var aLi = document.createElement('li');
+				num ++;
+				aLi.innerHTML = num;
+				oUl.appendChild(aLi);
+			}
+			
+		}
+	</script>
+	<!--<script type="text/javascript">
+		$(function(){
+			$('#btn').click(function(){
+				var v1 = $('#in').attr('value');
+				var v2 = $('#in').prop('value');
+				console.log(v1);
+				console.log(v2);
+			})
+		})
+	</script>-->
+</html>

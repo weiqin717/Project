@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.onload=function(){
+				var arr = [];
+				var json = {};
+				while(arr.length<10){
+					var num = Math.round(Math.random()*1000);
+					if(!json[num]){
+						arr.push(num);
+						json[num] = 1;
+					}
+				}
+//				for(var i=0; i<1000; i++){
+//					arr.push(i);
+//				}
+//				arr.sort(function(){
+//					return Math.random() - 0.5;
+//				});
+//				arr.length = 10;
+//				console.log(arr);
+//				console.log(window.navigator.userAgent)
+				var oSearch = window.location.search;
+				console.log(oSearch);
+			}
+		</script>
+	</body>
+</html>

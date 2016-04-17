@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>无标题文档</title>  
+<script type="text/javascript" src="jquery-1.5.1.min.js"></script>  
+<script type="text/javascript">  
+$(function(){  
+    $("ul li").click(function(){  
+        $("#btn").removeClass().addClass("shake");  
+        var set = setTimeout(function(){  
+            $("#btn").removeClass();      
+        },1500)  
+    })  
+})  
+</script>  
+<style type="text/css">  
+li{border:1px solid #333;}  
+  
+@-webkit-keyframes shake {  
+  
+    0%, 100% {-webkit-transform: translateX(0);}  
+    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);}  
+    20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);}  
+}  
+@-moz-keyframes shake {  
+    0%, 100% {-moz-transform: translateX(0);}  
+    10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-10px);}  
+    20%, 40%, 60%, 80% {-moz-transform: translateX(10px);}  
+}  
+  
+  
+  
+a.shake{  
+    -webkit-animation-name:shake;  
+    -webkit-animation-duration:1s;  
+    -moz--name:shake;  
+    -moz-animation-duration:1s;  
+    }  
+  
+a#btn{  
+    display:block;  
+    padding:10px;  
+    width:100px;  
+    height:50px;  
+    line-height:50px;  
+    background:rgba(0,102,255,1);  
+    -webkit-box-shadow:1px 1px 4px rgba(102,102,102,1);  
+    -moz-box-shadow:1px 1px 4px rgba(153,153,153,1);  
+    text-align:center;  
+    font-weight:bold;  
+    -webkit-text-shadow:2px 2px 1px rgba(51,51,51,1);  
+    -moz-text-shadow:2px 2px 1px rgba(51,51,51,1);  
+    text-shadow:2px 2px 1px rgba(51,51,51,1);  
+    color:#FFFFFF;  
+    text-decoration:none;  
+    border-radius:5px;  
+    }  
+  
+</style>  
+</head>  
+  
+<body>  
+<a href="" id="btn" class="">button</a>  
+<ul>  
+    <li>111111</li>  
+    <li>22222</li>  
+    <li>33333</li>  
+    <li>44444</li>  
+    <li>55555</li>  
+    <li>66666</li>  
+</ul>  
+</body>  
+</html> 

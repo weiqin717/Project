@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+input[type=input]{
+  -webkit-appearance:none;
+}
+.bg{
+  background: url(../img/rebg1.gif) no-repeat center center;
+  width: 15.2rem;
+  height: 14.2rem;
+  background-size: cover;
+  padding: 0 0.4rem;
+  padding-top: 14.2rem;
+}
+.bg input{
+  width: 14.85rem;
+  height: 1.65rem;
+  border: 0.075rem solid #ff7388;
+  border-radius: 2rem;
+  background: #fff;
+  font-size: 0.8rem;
+  font-family: "微软雅黑";
+  margin-bottom: 0.5rem;
+  text-indent: 1rem;
+}
+.code{
+  overflow:hidden;
+  width: 14.85rem;
+  height: 1.65rem;
+  border: 0.075rem solid #ff7388;
+  border-radius: 2rem;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  border-right: none;
+}
+.code input{
+  float: left;
+  width: 8.9rem;
+  border: none;
+}
+.code a{
+  float: right;
+  width: 5rem;
+  line-height: 1.65rem;
+  border-radius: 2rem;
+  background: #ff7388;
+  font-size: 0.75rem;
+  font-family: "微软雅黑";
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.languages {
+			  counter-reset: characters;
+			}
+			input:checked {  
+			  counter-increment: characters;
+			}
+			.total:after {
+			  content: counter(characters);
+			} 
+		</style>
+	</head>
+	<body>
+		<div class="languages">  
+		  <input id="c" type="checkbox"><label for="c">C</label>
+		  <input id="C++" type="checkbox"><label for="C++">C++</label>
+		  <input id="C#" type="checkbox"><label for="C#">C#</label>
+		  <input id="Java" type="checkbox"><label for="Java">Java</label>
+		  <input id="JavaScript" type="checkbox"><label for="JavaScript">JavaScript</label>
+		  <input id="PHP" type="checkbox"><label for="PHP">PHP</label>
+		  <input id="Python" type="checkbox"><label for="Python">Python</label>
+		  <input id="Ruby" type="checkbox"><label for="Ruby">Ruby</label>
+		</div>  
+		<p class="total">  
+		  Total selected:
+		</p>  
+	</body>
+</html>

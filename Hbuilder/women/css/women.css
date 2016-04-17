@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.bg1{
+  width:16rem;
+  height: 28.35rem;
+  background: url(../img/one.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bg2{
+  width: 16rem;
+  height: 28.35rem;
+  background: url(../img/two.gif) no-repeat center center;
+  background-size: cover;
+}
+.pic{
+  position: relative;
+  padding:3.9rem 0 2.7rem 0;
+  height: 14.5rem;
+}
+.bg2 p{
+  text-align: center;
+  font: 0.75rem/0.8rem "微软雅黑";
+  color: #a7320e;
+}
+.bg2 a{
+  width: 5.25rem;
+  border: 0.075rem solid #a7320e;
+  border-radius: 0.9rem;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #a7320e;
+  margin-top:0.95rem;
+  font: 0.75rem/1.8rem "微软雅黑";
+}
+@keyframes move{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(30deg);
+  }
+}
+@keyframes move1{
+  0%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(10deg);
+  }
+}
+.pic img{
+  width: 5.05rem;
+  height: 6.55rem;
+  position: absolute;
+}
+.pic img:nth-of-type(1){
+  animation: move 1.5s ease-in-out infinite alternate;
+  transform-origin: left top;
+  left: 2.1rem;
+  top: 4.5rem;
+}
+.pic img:nth-of-type(2){
+  animation: move1 1.5s ease-in-out infinite alternate;
+  transform-origin: right top;
+  left: 9.1rem;
+  top: 7.5rem;
+}
+.pic img:nth-of-type(3){
+  animation: move 1.5s ease-in-out infinite alternate;
+  transform-origin: left top;
+  left: 4.1rem;
+  top: 12.5rem;
+}

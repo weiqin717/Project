@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#content {
+				position: relative;
+				width: 260px;
+				height: 260px;
+				margin: 0 auto;
+				padding: 0px;
+			}
+			
+			#main {
+				width: 260px;
+				height: 260px;
+				margin: 0 auto;
+				padding: 0px;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			
+			#main div {
+				width: 50px;
+				height: 50px;
+				background: #ccc;
+				float: left;
+				margin-right: 1px;
+				margin-bottom: 1px;
+			}
+			
+			#conts {
+				width: 260px;
+				height: 260px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#cont1 {
+				position: absolute;
+				width: 254px;
+				height: 254px;
+				position: absolute;
+				left: 0px;
+				top: -2px;
+			}
+			
+			#cont1 div {
+				width: 50px;
+				height: 50px;
+				background: #c00;
+				position: absolute;
+				line-height: 50px;
+				text-align: center;
+			}
+			
+			#content input {
+				position: absolute;
+				top: 270px;
+				left: 100px;
+				width: 50px;
+				height: 30px;
+				line-height: 30px;
+				z-index: 10000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="content">
+			<div id="main">
+			</div>
+			<div id="conts" style="top: 2px;">
+				<div id="cont1">
+				</div>
+			</div>
+			<input type="button" value="click" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			var oDiv = document.getElementById('main');
+			var aDiv = document.getElementById('conts').getElementsByTagName('div')[0];
+			var oBtn = document.getElementById('content').getElementsByTagName('input')[0];
+			var str = '';
+			var str1 = '';
+			var arr = [Left,Top,Right,Bottom];
+			var n = 0;
+			for (var i = 0; i < 25; i++) {
+				str += "<div></div>";
+			}
+			oDiv.innerHTML = str;
+//			Top();
+//			Bottom();
+//			Left();
+//			Right();
+			oBtn.onclick=function(){
+//				alert(1)
+				str1 = '';
+				arr[n]();
+				n++;
+				if(n == 3){
+					n = 0;
+				}
+			}
+			function Top() {
+				for (var i = 0; i < 5; i++) {
+					//  i = 0 1 2 3 4 
+					if(i<3){
+						str1 += '<div style="left:'+i*51+'px;top:'+i*51+'px;">'+(i+1)+'</div>'
+					}else{
+						str1 += '<div style="left:'+i*51+'px;top:'+(4-i)*51+'px;">'+(i+1)+'</div>'
+					}
+					aDiv.innerHTML = str1;
+				}
+			}
+			function Bottom(){
+				for(var i = 0; i<5; i ++){
+					if(i<3){
+						str1 += '<div style="left:'+i*51+'px;bottom:'+(i*51)+'px;">'+(i+1)+'</div>'
+					}else{
+						str1 += '<div style="left:'+i*51+'px;bottom:'+((4-i)*51)+'px;">'+(i+1)+'</div>'
+					}
+					aDiv.innerHTML = str1;
+				}
+			}
+			function Left(){
+				for(var i = 0; i<5; i ++){
+					if(i<3){
+						str1 += '<div style="left:'+i*51+'px;top:'+i*51+'px;">'+(i+1)+'</div>'
+					}else{
+						str1 += '<div style="left:'+(4-i)*51+'px;top:'+i*51+'px;">'+(i+1)+'</div>'
+					}
+					aDiv.innerHTML = str1;
+				}
+			}
+			function Right(){
+				for(var i = 0; i<5; i ++){
+					if(i<3){
+						str1 += '<div style="right:'+i*51+'px;top:'+i*51+'px;">'+(i+1)+'</div>'
+					}else{
+						str1 += '<div style="right:'+(4-i)*51+'px;top:'+i*51+'px;">'+(i+1)+'</div>'
+					}
+					aDiv.innerHTML = str1;
+				}
+			}
+		}
+	</script>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			#box{
+				width: 200px;
+				height: 200px;
+				background: url(../img/a.png) no-repeat center center;
+				position: relative;
+				margin: 0 auto;
+			}
+			.eye_wrapper{
+				width:141px;
+				height:185px;
+				margin:0px auto;
+				position:relative;
+			}
+			.eye_wrapper .eye-left{
+				position:absolute;
+				top:82px;
+				left:30px}
+			.eye_wrapper .eye-right{
+				position:absolute;
+				top:80px;
+				left:96px}
+		</style>
+	</head>
+
+	<body>
+		<div id="box" class="eye_wrapper">
+			<img src="../img/b.png" id="eye1"  class="eye-left"/>
+			<img src="../img/c.png" / id="eye2" class="eye-right">
+		</div>
+	</body>
+	<!--<script type="text/javascript">
+		window.onload=function(){
+			var box=document.getElementById('box');
+			var img=box.getElementsByTagName('img');
+			document.onmousemove=function(ev){
+				var ev=ev || event;
+				var l=ev.clientX-img[1].offsetWidth/2;
+				var t=ev.clientY-img[1].offsetHeight/2;
+				if(l>115){
+					l=115*10;
+				}else if(l<110){
+					l=110*10;
+				}
+				img[1].style.left=l/10+'px';
+//				if(t>84){
+//					t=84*10;
+//				}else if(t<79){
+//					t=79*10;
+//				}
+				
+				img[1].style.top=t/10+'px';
+				console.log(l)
+				
+			}
+		}
+	</script>-->
+	<script>
+		var getAngle = function(Xc, Yc, Xa, Ya, Xb, Yb) {
+			var v1x = Xb - Xc;
+			var v1y = Yb - Yc;
+			var v2x = Xa - Xc;
+			var v2y = Ya - Yc;
+			return 180 * (Math.atan2(v1x, v1y) - Math.atan2(v2x, v2y)) / Math.PI
+		};
+		
+		var left_center_offset = {
+			left: 80,
+			top: 78
+		},
+		right_center_offset = {
+			left: 96,
+			top: 80
+		},
+		radius = 10;
+		var setEyeOffset = function(event) {
+			var offset = $(".eye_wrapper").offset();//860
+			var x1 = offset.left + left_center_offset.left;//860+30=890
+			var y1 = offset.top + left_center_offset.top;
+			var x2 = offset.left + right_center_offset.left;
+			var y2 = offset.top + right_center_offset.top;
+			var n1 = event.clientX - x1;//  -890
+			var m1 = -(event.clientY - y1);
+			var k1 = Math.atan2(m1, n1);
+			var n2 = event.clientX - x2;
+			var m2 = -(event.clientY - y2);
+			var k2 = Math.atan2(m2, n2);
+			var x11 = (Math.cos(k1) * radius + x1).toFixed(0);
+			var y11 = (( - Math.sin(k1) * radius) + y1).toFixed(0);
+			console.log(k1)
+//			console.log($('#eye1').offset())
+			$(".eye-left").offset({
+				left: x11,
+				top: y11
+			});
+			var x22 = (Math.cos(k2) * radius + x2).toFixed(0);
+			var y22 = (( - Math.sin(k2) * radius) + y2).toFixed(0);
+			$(".eye-right").offset({
+				left: x22,
+				top: y22
+			})
+		};
+		$(window).mousemove(setEyeOffset);
+	</script>
+
+</html>

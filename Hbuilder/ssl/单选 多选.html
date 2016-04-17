@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.form p {
+				font-size: 14px;
+				color: #666666;
+				margin-bottom: 5px;
+				margin-top: 5px;
+			}
+			
+			.form label {
+				font-size: 12px;
+				color: #333333;
+				cursor: pointer;
+				line-height: 16px;
+				display: inline-block;
+				margin-right: 18px;
+			}
+			
+			.form input {
+				vertical-align: -2px;
+				margin-bottom: 10px;
+				margin-right: 5px;
+			}
+			
+			.form .submit {
+				display: block;
+				width: 150px;
+				height: 40px;
+				background: #fa6567;
+				border-radius: 3px;
+				text-align: center;
+				line-height: 40px;
+				margin: 0 auto;
+				color: #fff;
+				font-size: 14px;
+				border: solid 1px #fa6567;
+				margin-top: 10px;
+				cursor: pointer;
+			}
+			
+			.submitBtn {
+				height: 64px;
+				border-top: 1px dashed #e4e4e4;
+				margin-top: 10px;
+			}
+			
+			.form .thanks {
+				text-align: center;
+				line-height: 64px;
+				margin: 0;
+				color: #999999;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form class="form" action="{:U('update')}" method="post">
+			<div class="form1">
+				<p>1、您是否了解众筹？（单选）<span style="font-size:12px; color:red;" class="tip1"></span></p>
+				&nbsp&nbsp
+				<label for="zhong1">
+					<input type="radio" name="question_1" value="1" id="zhong1" >完全不了解</label>
+				<label for="zhong2">
+					<input type="radio" name="question_1" value="2" id="zhong2" >基本了解</label>
+				<label for="zhong3">
+					<input type="radio" name="question_1" value="3" id="zhong3">比较了解</label>
+			</div>
+			<div class="form2">
+				<p>2、您是否了解股权众筹？（单选）<span style="font-size:12px; color:red;" class="tip2"></span></p>
+				&nbsp&nbsp
+				<label for="chou1">
+					<input type="radio" name="question_2" value="1" id="chou1">完全不了解</label>
+				<label for="chou2">
+					<input type="radio" name="question_2" value="2" id="chou2">基本了解</label>
+				<label for="chou3">
+					<input type="radio" name="question_2" value="3" id="chou3">比较了解</label>
+			</div>
+			<div class="form3">
+				<p>3、您认为前景不错的项目是？（多选）<span style="font-size:12px; color:red;" class="tip3"></span></p>
+				&nbsp&nbsp
+				<label for="duo1">
+					<input type="checkbox" name="question_3[]" value="1" id="duo1">移动互联网</label>
+				<label for="duo2">
+					<input type="checkbox" name="question_3[]" value="2" id="duo2">文化娱乐</label>
+				<label for="duo3">
+					<input type="checkbox" name="question_3[]" value="3" id="duo3">生活服务</label>
+				<br/> &nbsp&nbsp
+				<label for="duo4">
+					<input type="checkbox" name="question_3[]" value="4" id="duo4">O2O</label>
+				<label for="duo5">
+					<input type="checkbox" name="question_3[]" value="5" id="duo5">游戏动漫</label>
+				<label for="duo6">
+					<input type="checkbox" name="question_3[]" value="6" id="duo6">互联网金融</label>
+				<br/> &nbsp&nbsp
+				<label for="duo7">
+					<input type="checkbox" name="question_3[]" value="7" id="duo7">旅游</label>
+				<label for="duo8">
+					<input type="checkbox" name="question_3[]" value="8" id="duo8">教育培训</label>
+				<label for="duo9">
+					<input type="checkbox" name="question_3[]" value="9" id="duo9">智能硬件</label>
+			</div>
+			<div class="submitBtn">
+				<notempty name="info">
+					<p class="thanks">已提交答案 谢谢您的配合</p>
+					<else />
+					<input type="submit" value="提交" class="submit">
+				</notempty>
+			</div>
+		</form>
+		<script type="text/javascript">
+			var Input1 = $('.form1').find('input');
+			var Input2 = $('.form2').find('input');
+			var Input3 = $('.form3').find('input');
+			function checked1(){
+				for(var i = 0; i<Input1.length; i++){
+					if(Input1[i].checked == true){
+						$('.tip1').text('')
+						return false;
+					}else{
+						$('.tip1').text('未选择')
+					}
+				}
+			}
+			function checked2(){
+				for(var i = 0; i<Input2.length; i++){
+					if(Input2[i].checked == true){
+						$('.tip2').text('')
+						return false;
+					}else{
+						$('.tip2').text('未选择')
+					}
+				}
+			}
+			function checked3(){
+				for(var i = 0; i<Input3.length; i++){
+					if(Input3[i].checked == true){
+						$('.tip3').text('')
+						return false;
+					}else{
+						$('.tip3').text('未选择');
+					}
+				}
+			}
+			var arr = [checked1,checked2,checked3];
+			$('.submit').click(function(){
+			var num = 0;
+				for(var i=0;i<arr.length;i++){
+					if(arr[i]() != false){
+						num++;
+					}
+				}
+				if(num>=1){
+					return false;
+				}else{
+					return true;
+				}
+			})
+//			$('.submit').click(function(){
+//				checked1();
+//				checked2();
+//				checked3();
+//				return false;
+//			})
+//			function checked1() {
+//				var num = 0;
+//				for (var i = 0; i < Input1.length; i++) {
+//					if (Input1[i].checked == true) {
+//						num++;
+//					}
+//				}
+//				if (num >= 1) {
+//					return true;
+//				} else {
+//					$('.tip1').text('未选择');
+//					return false;
+//				}
+//			}
+//
+//			function checked2() {
+//				var num = 0;
+//				for (var i = 0; i < Input2.length; i++) {
+//					if (Input2[i].checked == true) {
+//						num++;
+//					}
+//				}
+//				if (num >= 1) {
+//					return true;
+//				} else {
+//					$('.tip2').text('未选择');
+//					return false;
+//				}
+//			}
+//
+//			function checked3() {
+//				var num = 0;
+//				for (var i = 0; i < Input3.length; i++) {
+//					if (Input3[i].checked == true) {
+//						num++;
+//					}
+//				}
+//				if (num >= 1) {
+//					return true;
+//				} else {
+//					$('.tip3').text('未选择');
+//					return false;
+//				}
+//			}
+//			$('.submit').click(function() {
+//				if (checked1() && checked2() && checked3()) {} else {
+//					return false;
+//				}
+//			});
+		</script>
+	</body>
+
+</html>

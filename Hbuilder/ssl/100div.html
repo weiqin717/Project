@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				position: relative;
+				
+			}
+			li{
+				list-style: none;
+				-webkit-transition: 1s;
+			}
+			li:hover{
+				-webkit-transform: scale(0.5);
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="ul" >
+			<!--<li></li>-->
+		</ul>
+		<script type="text/javascript">
+			var oUl=document.getElementById('ul');
+			var str='';
+			
+//			var t=i
+			var arr=['red','green','yellow','blue']
+			for(var i=0;i<100;i++){
+				var l=i%10*100;
+				var t=Math.floor(i/10)*100;
+				str+='<li style="background:'+arr[i%arr.length]+';width: 100px; height: 100px; float: left;position: absolute; left:'+l+'px;top:'+t+'px"></li>';
+				oUl.innerHTML=str;
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+	//获取时间戳的方式有三种：
+		var Time1=new Date().getTime();
+		var Time2=Date.parse(new Date());//获取的时间戳是把毫秒改成000显示;
+		var Time3=(new Date()).valueOf();
+		//时间戳可以简写如下：
+		var Time4=+new Date();
+		
+		var Time=new Date();
+		var Year=Time.getFullYear();
+//		console.log(Time3);
+		//设置一个未来的时间：
+		var newTime=+new Date(2015,10,26,12,00,00);
+		//2015,10,26,11,00,00    未来时间可以是数字形式；
+		//'August 14,2015 10:45:00'    未来时间可以写成字符串形式；
+		//未来时间减去现在的时间剩余的时间：
+		
+//		var Day=parseInt(t/86400);
+//		var Hours=parseInt(t/3600);
+//		var Mu=parseInt(t/60);
+//		var Mu1=Math.floor(t/60);
+		
+		var timer=null;
+		var newTime=+new Date(2015,10,26,12,00,00);
+		function overTime(){
+			var Time=+new Date();
+			var t=(newTime-Time)/1000;
+			var d=t/86400;
+			t%=86400;
+			var h=t/3600;
+			t%=3600;
+			var m=t/60;
+			t%=60;
+			var str=Double(Math.floor(d))+'天'+Double(Math.floor(h))+'时'+Double(Math.floor(m))+'分'+Double(Math.floor(t))+'秒';
+			console.log(str);
+//			document.write(str)
+		}
+			overTime();
+//			timer=setInterval(overTime,1000)
+		
+		
+		function Double(n){
+			return n<10?'0'+n:''+n;
+		}
+		var newtime=new Date(2015,11,01,12,00,00);
+		
+		console.log(newtime);
+		
+		
+	</script>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img {
+				display: inline-block;
+				width: 600px;
+				height: 340px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+			<img _src="../../app1/img/p1.jpg" alt="" />
+		</div>
+	</body>
+	<script type="text/javascript">
+//		function getStyle(obj, attr) {
+//			return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle(obj)[attr];
+//		}
+//
+//		function getPos(obj) {
+//			var left = 0,
+//				top = 0;
+//			var bl = parseInt(getStyle(obj, 'borderLeftWidth'));
+//			bl = isNaN(bl) ? 0 : bl;
+//			var bt = parseInt(getStyle(obj, 'borderTopWidth'));
+//			bt = isNaN(bt) ? 0 : bt;
+//			while (obj) {
+//				var bL = parseInt(getStyle(obj, 'borderLeftWidth'));
+//				bL = isNaN(bL) ? 0 : bL;
+//				var bT = parseInt(getStyle(obj, 'borderTopWidth'));
+//				bT = isNaN(bT) ? 0 : bT;
+//				left += obj.offsetLeft + bL;
+//				top += obj.offsetTop + bT;
+//				obj = obj.offsetParent;
+//			}
+//			return {
+//				l: left,
+//				t: top
+//			}
+//		}
+				window.onload = window.onscroll = function() {
+					var Img = document.getElementsByTagName('img');
+					var scrollT = window.pageYOffset || document.documentElement.scrollTop;
+					var clientH = window.innerHeight || document.documentElement.clientHeight;
+					var B = clientH + scrollT;
+					for (var i = 0; i < Img.length; i++) {
+						var pos = Img[i].offsetTop;
+						if (pos < B) {
+							Img[i].src = Img[i].getAttribute('_src');
+						}
+					}
+				}
+//		window.onload = window.onscroll = function() {
+//			var aImg = document.getElementsByTagName('img');
+//			var ScrollT = window.pageYOffset || document.documentElement.scrollTop;
+//			console.log(ScrollT);
+//			var clientH = window.innerHeight || document.documentElement.clientHeight;
+//			console.log(clientH);
+//			var clientB = clientH + ScrollT;
+//			console.log(clientB);
+//			for (var i = 0; i < aImg.length; i++) {
+//				var oPos = getPos(aImg[i]).t;
+//				console.log(oPos);
+//				if (oPos < clientB) {
+//				console.log(oPos < clientB)
+//					aImg[i].src = aImg[i].getAttribute('_src');
+//				}
+//			}
+//		}
+	</script>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="mycanvas" width="1000" height="1000"></canvas>
+	</body>
+	<script type="text/javascript">
+//		var canvas=document.getElementById('mycanvas');
+//		var ctx=canvas.getContext('2d');
+//		ctx.fillStyle='#FF0000';
+//		ctx.fillRect(0,0,80,100);
+		draw21('mycanvas');
+		function draw21(id){
+			var canvas=document.getElementById(id);
+			if(canvas==null) return false;
+			var context=canvas.getContext('2d');
+//			context.fillRect(0,0,100,100);
+//			
+//			context.strokeRect(120,0,100,100);
+////			
+//			context.fillStyle='red';
+//			context.strokeStyle='blue';
+//			context.fillRect(0,120,100,100);
+//			context.strokeRect(120,120,100,100);
+////			
+//			context.fillStyle="rgba(255,0,0,0.2)";
+//			context.strokeStyle="rgba(255,0,0,0.2)";
+//			context.fillRect(240,0,100,100);
+//			context.strokeRect(240,120,100,100);
+//			context.clearRect(50,50,240,120);
+//			
+//			context.beginPath();
+//			context.arc(500,100,100,0,Math.PI*2,true);
+//			context.closePath();
+//			context.fillStyle="rgba(0,255,0,0.25)";
+//			context.fill();
+//			
+//			context.beginPath();
+//			context.arc(600,150,50,0,Math.PI/2,false);
+//			context.fillStyle='red';
+//			context.fill();
+//			context.strokeStyle='red';
+//			context.closePath();
+//			context.stroke();
+//			
+//			
+//			context.strokeStyle='red';
+//			context.fillStyle='red';
+//			context.lineTo(100,100);
+//			context.lineTo(200,200);
+//			context.lineTo(200,200);
+//			context.moveTo(200,50);
+//			context.lineTo(100,50);
+//			context.stroke();
+			
+			
+			
+//          context.fillStyle = "#EEEEFF";
+//          context.fillRect(0, 0, 400, 300);
+//          var n = 0;
+//          var dx = 150;
+//          var dy = 150;
+//          var s = 100;
+//          context.beginPath();
+//          context.fillStyle = 'rgb(100,255,100)';
+//          context.strokeStyle = 'rgb(0,0,100)';
+//          var x = Math.sin(0);
+//          var y = Math.cos(0);
+//          var dig = Math.PI / 15 * 11;
+//          for (var i = 0; i < 30; i++) {
+//              var x = Math.sin(i * dig);
+//              var y = Math.cos(i * dig);
+//              context.lineTo(dx + x * s, dy + y * s);
+//          }
+//          context.closePath();
+//          context.fill();
+//          context.stroke();
+
+
+
+     
+           var interal = setInterval(function () {
+               move(context);
+           }, 1);
+       }
+
+       var x = 100;//矩形开始坐标
+       var y = 100;//矩形结束坐标
+       var mx = 0;//0右1左
+       var my = 0; //0下1上
+       var ml = 1;//每次移动长度
+       var w = 20;//矩形宽度
+       var h = 20;//矩形高度
+       var cw = 400;//canvas宽度
+       var ch = 300; //canvas高度
+
+
+       function move(context) {
+           context.clearRect(0, 0, 400, 300);
+           context.fillStyle = "#EEEEFF";
+           context.fillRect(0, 0, 400, 300);
+           context.fillStyle = "red";
+           context.fillRect(x, y, w, h);       
+           if (mx == 0) {
+               x = x + ml;
+               if (x >= cw-w) {
+                   mx = 1;
+               }
+           }
+           else {
+               x = x - ml;
+               if (x <= 0) {
+                   mx = 0;
+               }
+           }
+           if (my == 0) {
+               y = y + ml;
+               if (y >= ch-h) {
+                   my = 1;
+               }
+           }
+           else {
+               y = y - ml;
+               if (y <= 0) {
+                   my = 0;
+               }
+           }
+         
+       
+
+		}
+
+
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

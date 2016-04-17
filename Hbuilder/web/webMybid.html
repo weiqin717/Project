@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/webMybid.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <!-- <script src="js/webRe.js" charset="utf-8"></script> -->
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <!--  -->
+  <header class="head clearfix">
+    <a href="webMy.html"><返回</a>
+    <span>我的投标</span>
+  </header>
+  <!--  -->
+  <nav class="nav clearfix">
+    <span style="font-size:0.6rem; color:#68bf21;">跳转记录</span>
+    <span>冻结中</span>
+    <span>已返利</span>
+  </nav>
+  <!--  -->
+  <div class="content">
+    <!-- 跳转记录 -->
+    <ul class="list" style="display:">
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              跟单中，系统在统计
+            </p>
+          </div>
+          <p class="time">
+            2016.04.15 12:24:38
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              跟单中，系统在统计
+            </p>
+          </div>
+          <p class="time">
+            2016.04.15 12:24:38
+          </p>
+        </div>
+      </li>
+    </ul>
+    <!-- 冻结中 -->
+    <ul class="list" style="display:none;">
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              预计返利金额&nbsp&nbsp ¥38.28
+            </p>
+          </div>
+          <p class="time time1">
+            2016.04.15 解冻
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              预计返利金额&nbsp&nbsp ¥38.28
+            </p>
+          </div>
+          <p class="time time1">
+            2016.04.15 解冻
+          </p>
+        </div>
+      </li>
+    </ul>
+    <!-- 已返利 -->
+    <ul class="list" style="display:none;">
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              预计返利金额&nbsp&nbsp <em class="red" style="font-style:normal;">¥38.28</em>
+            </p>
+          </div>
+          <p class="time time1">
+            2016.04.15 已到账
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="plat">
+          <img src="img/ptlogo1.jpg" alt="" />
+          <span>整存宝+3个月项目标</span>
+        </div>
+        <div class="clearfix">
+          <div class="mes">
+            <div class="">
+              <span>返利：</span>
+              <span class="red">8%</span>
+              <span>期限：</span>
+              <span class="green">1月</span>
+            </div>
+            <p>
+              预计返利金额&nbsp&nbsp <em class="red" style="font-style:normal;">¥38.28</em>
+            </p>
+          </div>
+          <p class="time time1">
+            2016.04.15 已到账
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!--  -->
+<script type="text/javascript">
+  $(function(){
+    var aUL = $('.list');
+    var span = $('.nav span');
+    for(var i = 0; i<span.length; i++){
+      span[i].index = i;
+      span[i].onclick=function(){
+        for(var j = 0;j<span.length;j++){
+          span[j].style.color = '#999999';
+          span[j].style.fontSize = '0.55rem';
+          aUL[j].style.display = 'none';
+        }
+        this.style.color = '#68bf21';
+        this.style.fontSize = '0.6rem';
+        aUL[this.index].style.display = 'block';
+      }
+    }
+  })
+</script>
+</body>
+</html>

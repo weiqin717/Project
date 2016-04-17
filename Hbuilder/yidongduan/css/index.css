@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	vertical-align: bottom;
+}
+.pic{
+	width: 100%;
+	margin-bottom: 0.725rem;
+}
+.pic img{
+	width: 100%;
+	height: 7.75rem;
+}
+.warp{
+	width: 15rem;
+	padding-left: 0.5rem;
+	margin-bottom: 1.15rem;
+}
+.btn{
+	width:15rem;
+	height:2rem;
+	margin-bottom: 0.75rem;
+}
+.mes{
+	width: 50%;
+	height: 2rem;
+	background: #66a402;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align:center;
+	float: left;
+	border-radius: 0.125rem 0 0 0.125rem;
+	font: 0.6rem/2rem "Arial";
+}
+.confirm{
+	width: 50%;
+	height: 2rem;
+	background: #bbbbbb;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align:center;
+	float: left;
+	border-radius: 0 0.125rem 0.125rem 0;
+	font: 0.6rem/2rem "Arial";
+}
+.tel{
+	width: 15rem;
+	border-radius: 0.125rem;
+	text-indent: 0.5rem;
+	margin-bottom: 0.5rem;
+	font: 0.6rem/2rem "Arial";
+}
+.code{
+	width:15rem;
+	height:2rem;
+	margin-bottom: 1.5rem;
+}
+.code_inp{
+	width: 8rem;
+	border-radius: 0.125rem;
+	text-indent: 0.5rem;
+	margin-bottom: 0.5rem;
+	float: left;
+	font: 0.6rem/2rem "Arial";
+}
+.identifying{
+	width: 6.5rem;
+	background: #66a402;
+	float: right;
+	color: #FFFFFF;
+	line-height: 2rem;
+	text-align: center;
+	border-radius: 0.125rem;
+}
+.next{
+	text-decoration: none;
+	display: block;
+	width: 15rem;
+	background: #66a402;
+	border-radius: 0.125rem;
+	line-height: 2rem;
+	text-align: center;
+	color: #FFFFFF;
+	font: 0.6rem/2rem "Arial";
+}
+.foot{
+	padding-left: 0.5rem;
+	width: 15rem;
+}
+.service{
+	font-family: "Arial";
+	font-size:0.6rem ;
+	color: #666666;
+	margin-bottom: 0.45rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			var iScale=1;
+			iScale=iScale/window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+		</script>
+		<title>手机验证</title>
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/validate.css"/>
+	</head>
+	<body>
+		<script>
+			document.body.style.height=document.documentElement.clientHeight+"px";
+		</script>
+		<header class="pic">
+			<img src="img/1.jpg"/>
+		</header>
+		<section class="warp">
+			<div class="btn">
+				<h3 class="mes">填写基本信息</h3>
+				<h3 class="confirm">验证手机号</h3>
+			</div>
+			<div class="code">
+				<input type="text" name="" id="" value="" placeholder="验证码" class="code_inp" />
+				<p class="identifying" id="identifying">60秒重新获取</p>
+			</div>
+			<a href="succ.html" class="next">同意用户协议并注册</a>
+			<p class="word">
+				<span>阅读</span>
+				<span><a href="xieyi.html">《生菜网用户协议》</a></span>
+			</p>
+		</section>
+		<footer class="foot">
+			<p class="service">客服：400-688-6605（工作日 9:00-18:30）</p>
+			<p class="service">官网地址：www.shengcai18.com</p>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+			identifying=document.getElementById('identifying');
+			var n=60;
+			var timer=null;
+			timer=setInterval(function(){
+				n--;
+				identifying.innerHTML=n+'秒重新获取';
+				if(n==0){
+					clearInterval(timer);
+					identifying.innerHTML='重新获取';
+				}
+				
+			},1000);
+			
+		}
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

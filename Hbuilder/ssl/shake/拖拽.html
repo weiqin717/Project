@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			#box{
+				width: 100px;
+				height: 100px;
+				background: red;
+				position: absolute;
+				top: 0;
+				left: 0;
+				cursor: move;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			
+		</div>
+		<script type="text/javascript">
+			window.onload=function(){
+				var Box = document.getElementById('box');
+				document.onmousemove=function(event){
+					var ClientW = document.documentElement.clientWidth || document.body.clientWidth;
+					var ClientH = document.documentElement.clientHeight || document.body.clientHeight;
+					var scrollT = window.pageYOffset || document.documentElement.scrollTop;
+					var event = event || window.event;
+					var X = event.clientX - Box.offsetWidth/2;
+					var Y = event.clientY - Box.offsetHeight/2;
+					if(X<0){
+						X = 0;
+					}else if(X>ClientW-Box.offsetWidth){
+						X = ClientW - Box.offsetWidth;
+					}
+					Box.style.left = X+'px';
+					Box.style.top = Y+'px';
+				}
+				
+			}
+		</script>
+	</body>
+</html>

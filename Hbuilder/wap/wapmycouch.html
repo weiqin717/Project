@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/wapmycouch.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <!--  -->
+  <header class="head clearfix">
+    <a href="webMycou.html"><返回</a>
+    <span>兑换加息券</span>
+  </header>
+  <!--  -->
+  <div class="do">
+    当前可使用菜籽 <span>236</span>个
+  </div>
+  <!--  -->
+  <ul class="coupon">
+    <li class="couponList clearfix">
+      <div class="couOne">
+        <p>5%</p>
+        <p>B1J3M1K5</p>
+      </div>
+      <div class="couTwo">
+        <p>生菜网理财加息神器</p>
+        <p>可以兑换</p>
+      </div>
+      <div class="couTh clearfix">
+        <img src="img/cz.jpg" alt="" />
+        <span>180兑换</span>
+      </div>
+    </li>
+    <li class="couponList clearfix">
+      <div class="couOne">
+        <p>3%</p>
+        <p>B1J3M1K5</p>
+      </div>
+      <div class="couTwo">
+        <p>生菜网理财加息神器</p>
+        <p>可以兑换</p>
+      </div>
+      <div class="couTh clearfix">
+        <img src="img/cz.jpg" alt="" />
+        <span>180兑换</span>
+      </div>
+    </li>
+    <li class="couponList clearfix">
+      <div class="couOne">
+        <p>2%</p>
+        <p>B1J3M1K5</p>
+      </div>
+      <div class="couTwo">
+        <p>生菜网理财加息神器</p>
+        <p>可以兑换</p>
+      </div>
+      <div class="couTh clearfix">
+        <img src="img/cz.jpg" alt="" />
+        <span>180兑换</span>
+      </div>
+    </li>
+    <li class="couponList clearfix">
+      <div class="couOne">
+        <p>3%</p>
+        <p>B1J3M1K5</p>
+      </div>
+      <div class="couTwo">
+        <p>生菜网理财加息神器</p>
+        <p>可以兑换</p>
+      </div>
+      <div class="couTh clearfix">
+        <img src="img/cz.jpg" alt="" />
+        <span>180兑换</span>
+      </div>
+    </li>
+  </ul>
+  <div class="mask" style="display:none;"></div>
+  <div class="tip" style="display:none;">
+    <div class="tipCon">
+      <p>提示</p>
+      <p>您确定要兑换5%加息券吗</p>
+      <div class="btn clearfix">
+        <span class="yes">兑换</span>
+        <span class="no">取消</span>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(function(){
+      $('.couponList').click(function(){
+        $('.mask').css('display','block');
+        $('.tip').css('display','block');
+      });
+      $('.no').click(function(){
+        $('.mask').css('display','none');
+        $('.tip').css('display','none');
+      });
+      $('.yes').click(function(){
+        $.ajax({
+
+        })
+      })
+    })
+  </script>
+</body>
+</html>

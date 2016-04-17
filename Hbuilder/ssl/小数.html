@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		function get(){
+			var s=222.127561+'';
+			var str=s.substring(0,s.indexOf('.')+3);
+			var str1=s.substr(0,s.indexOf('.')+3);
+//			console.log(str);
+//			console.log(str1);
+		}
+		get()
+		//
+		onload = function(){
+		    var a = "23.456322";
+		    var aNew;
+		    var re = /([0-9]+\.[0-9]{2})[0-9]*/;
+		    aNew = a.replace(re,"$1");
+//		    console.log(aNew);
+		}
+		
+		var num=22.127456;
+		console.log( Math.round(num*100)/100);
+		console.log(Math.round(num*100));
+		
+		
+		var num=22.127456;
+		alert( num.toFixed(2));
+		
+		var str='123456';
+//		console.log(str.indexOf(5));
+//		console.log(str.substring(1,3))
+	</script>
+</html>

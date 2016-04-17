@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: "微软雅黑","Hiragino Sans GB";
+  background: #f8f8f8;
+}
+img{
+  vertical-align: bottom;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.caizhu{
+  width: 6.275rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  display: block;
+  padding-top: 2rem;
+}
+/*手机号*/
+.content{
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
+}
+.register{
+  margin: 0 auto;
+  width: 14rem;
+}
+.register p{
+  text-align: center;
+  font-size: 0.6rem;
+  color: #999999;
+}
+.register input{
+  width:100%;
+  height: 1.65rem;
+  border: 0.05rem solid #61b31e;
+  border-radius: 0.8rem;
+  font-size: 0.6rem;
+  text-indent: 1rem;
+  margin-top: 4.75rem;
+  outline: none;
+}
+.register span{
+  font-size: 0.5rem;
+  color: #ff3333;
+  display: block;
+  text-indent: 1rem;
+  margin-top: 0.25rem;
+  height: 0.7rem;
+}
+.register a{
+  display: block;
+  width: 100%;
+  height: 1.65rem;
+  background: #68bf21;
+  text-align: center;
+  line-height: 1.65rem;
+  color: #fff;
+  border-radius: 0.8rem;
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+}
+/**/
+.logo img{
+  width: 3.475rem;
+  height: 1.3rem;
+  display: block;
+  margin: 0 auto;
+}
+.logo p{
+  text-align: center;
+  font-size: 0.6rem;
+  color: #999999;
+  margin: 0.375rem 0 1rem 0;
+}
+.foot{
+  width: 100%;
+  height: 1.75rem;
+  background: #454545;
+  position: fixed;
+  bottom: 0;
+}
+.foot a{
+  float: left;
+  font-size: 0.55rem;
+  color: #fff;
+  line-height: 1.75rem;
+}
+.foot a:nth-of-type(1){
+  margin-left: 1rem;
+}
+.foot a:nth-of-type(2){
+  margin:0 3.75rem
+}
+/*注册*/
+.phone .codeDiv input{
+  width: 9.2rem;
+  height: 1.65rem;
+  border: 0.05rem solid #61b31e;
+  float: left;
+}
+.phone .codeDiv a{
+  display: inline-block;
+  width: 4rem;
+  height: 1.65rem;
+  background: #61b31e;
+  color: #fff;
+  font-size: 0.6rem;
+  float: right;
+  margin-top: 1.25rem;
+}
+.phone .code{
+  margin-top: 1.25rem;
+}
+.phone .password{
+  margin-top: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a

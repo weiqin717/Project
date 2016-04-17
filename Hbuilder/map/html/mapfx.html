@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>地图轮播</title>
+    <script>
+        var iScale=1;
+        iScale=iScale/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />');
+    </script>
+    <title>乐铺首页</title>
+   
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link rel="stylesheet" href="../dist/css/maplunb.css">
+
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+       /* height: 100%;*/
+       position: fixed;
+       bottom: 0;
+    }
+    .swiper-slide {
+        /*text-align: center;*/
+       /* font-size: 18px;*/
+        background: #fff;
+        width: 80%;
+		margin-left:20px;
+
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+       border: 0.04rem solid #e5e5e5;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 80%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 80%;
+    }
+
+    </style>
+</head>
+<body>
+
+	 <script>
+        document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/15+"px";
+    </script>
+	<div id="l-map" style="width: 100%;overflow: hidden"></div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+               
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+                </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="box">
+                        <dl class="list_box clearfix">
+                            <dt>
+                                <img src="../dist/images/list_00.jpg" class="dingw">
+                                <img src="../dist/images/list_05.jpg">
+                            </dt>
+                            <dd>朝阳奥林匹克公园80m&sup2; 超市出售</dd>
+                            <dd>商铺类型：商业街商铺 </dd>
+                            <dd>8万元/月</dd>
+                        </dl>
+                    </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+<script src="../dist/js/zepto.min.js"></script>
+    <!-- Swiper JS -->
+<script src="../dist/js/swiper.min.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=9UsfSI3Caimiqi2cNKSfWTxv" type="text/javascript"></script>
+    <!-- Initialize Swiper -->
+<script>
+	//地图高度
+     var screen_width = $(window).width();
+     var screen_height = $(window).height();
+    $('#l-map').css({"height":screen_height,"width":screen_width});
+ 
+    var current_level = 'citys';//当前显示的是哪个级别的地图，区县citys   商圈circles  商铺shops
+    var last_shop_id = 0;//记录上一个店铺索引id
+
+    var template_html = '';//动态追加的html部分
+    var map = new BMap.Map("l-map");
+    map.centerAndZoom(new BMap.Point(116.530329,39.892757), 11);
+    map.setCurrentCity("北京");
+    map.closeInfoWindow();
+    map.panBy(1,300);
+    	
+	
+	
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        paginationClickable: true
+    });
+</script>
+</body>
+</html>

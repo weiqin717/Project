@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>跟随鼠标转动的眼睛，zzjs.net收集。</title>
+<style type="text/css">
+.eye{
+ display:inline;
+ overflow:hidden;
+ position:relative;
+ float:left;
+ margin:50px 0 0 50px;
+ width:50px;
+ height:50px;
+ font-size:50px;
+ line-height:106%;
+ line-height:normal;
+ cursor:default;
+}
+@media all and (min-width:0px){
+.eye{line-height:normal;}
+}
+.pupil{
+ overflow:hidden;
+ position:absolute;
+ margin:-5px 0 0 -5px;
+ width:10px;
+ height:10px;
+ line-height:normal;
+ font-size:10px;
+ top:50%;
+ left:50%;
+}
+</style>
+</head>
+<body>
+<div id="leftEye" class="eye">○<span id="leftPupil" class="pupil">●</span></div>
+<div id="rightEye" class="eye">○<span id="rightPupil" class="pupil">●</span></div>
+<input name="" id="xy" type="text" />
+<script type="text/javascript">
+var $=function(o){return document.getElementById(o)}
+var leftEye=$("leftEye");
+var rightEye=$("rightEye");
+var leftPupil=$("leftPupil");
+var rightPupil=$("rightPupil");
+var xy=$("xy");
+document.documentElement.onmousemove=function(e){
+	 var e=window.event||e;
+	 var eX=e.clientX, eY=e.clientY;
+	 track(leftEye,leftPupil,eX,eY);
+	 track(rightEye,rightPupil,eX,eY);
+}
+function track(o,i,eX,eY){
+	 var oL=o.offsetLeft;
+	 var oT=o.offsetTop;
+	 var oW=o.offsetWidth;
+	 var oH=o.offsetHeight;
+	 var oCW=o.clientWidth;
+	 var oCH=o.clientHeight;
+	 var oX=oL+oW/2;
+	 var oY=oT+oH/2;
+	 var eX=eX-oX;
+	 var eY=eY-oY;
+	 var eXY,iL,iT;
+	 if(eX!=0&&eY!=0){
+	  eXY=eX/eY;
+	  var r=oCW/2-12;
+	  var R=Math.sqrt(eX*eX+eY*eY);
+	  var rR=R/5>r?r:R/5;
+	  var iL=Math.sqrt(rR*rR/(1+1/(eXY*eXY)));
+	  if(eX<0)iL=-iL;
+	  var iT=iL/eXY;
+	  i.style.left=(iL+oCW/2)+"px";
+	  i.style.top=(iT+oCH/2)+"px";
+	 }
+ xy.value=eX+","+eY;
+}//欢迎来到站长特效网，我们的网址是www.zzjs.net，很好记，zz站长，js就是js特效，本站收集大量高质量js代码，还有许多广告代码下载。
+</script>
+</body>
+</html>

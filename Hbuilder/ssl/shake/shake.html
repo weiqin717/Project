@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript">
+			var iScale = 1;
+			iScale = iScale / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale=' + iScale + ',minimum-scale=' + iScale + ',maximum-scale=' + iScale + '" />')
+		</script>
+		<title></title>
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 16 + 'px';
+		</script>
+		<style type="text/css">
+			img {
+				position: relative;
+				top: 20px;
+				left: 50px;
+				width: 22.5rem;
+				height: 6.75rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script>
+			document.body.style.height = document.documentElement.clientHeight + "px";
+		</script>
+		<img src="../../cjfl/img/swlogo.png" / id="img">
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+//			var Img = document.getElementById('img');
+//			var arr = [];
+//			var num = 0;
+//			var timer = null;
+//			for (var i = 10; i > 0; i -= 2) {
+//				arr.push(i, -i)
+//			}
+//			arr.push(0);
+//			//			console.log(arr);
+//			Img.onclick = function() {
+//				num = 0;
+//				clearInterval(timer);
+//				timer = setInterval(function() {
+//					Img.style.left = 50 + arr[num] + 'px';
+//					num++;
+//					if (num == arr.length) {
+//						clearInterval(timer);
+//					}
+//				}, 50);
+//				console.log(num)
+//			}
+//			var str = 'a-b-c-d';
+//			console.log(str.charAt(2));
+//			console.log(str.substring(1,2));
+//			console.log(str.substr(1,2));
+//			console.log(str.slice(2,1));
+//			console.log(str.split('-')[1])
+//			console.log(Math.random().toString(36).replace(/[^a-z]+/g,'').substring(2,6));
+//			console.log(new Date() - 0);
+//			var arr = [1,2,3,4];
+//			var arr1 = [6,7];
+//			var arr2 = arr.concat(arr1);
+//			console.log(arr2);
+			//冒泡排序
+//			var arr = [2,3,1,7,5,4];
+//			for(var i=0;i<arr.length;i++){
+////				console.log(i)
+//				for(var j=1;j<arr.length;j++){
+////					console.log(j)
+//					if(arr[j-1]>arr[j]){
+//						var temp = arr[j-1];
+////						console.log(temp);//3
+//						arr[j-1] = arr[j];
+////						console.log(arr[j-1]);//1
+//						arr[j] = temp;
+//						console.log(arr[j]);//3
+//						//2,3
+//						//3,1   1,3
+//					}
+//				}
+//			}
+			//快速排序
+//			function quicksort(arr){
+//				if(arr.length <= 1){
+//					return arr;
+//				}
+//				var left = [];
+//				var right = [];
+//				var cur = arr.shift();
+//				while(arr.length){
+//					if(arr[0] < cur){
+//						left.push(arr.shift());
+//						
+//					}else{
+//						right.push(arr.shift());
+//					}
+//				}
+//				console.log(quicksort(left));
+//				return quicksort(left).concat(cur,quicksort(right));
+//			}
+//			console.log(quicksort(arr));
+//			console.log(arr.sort());
+//			var oDate = new Date();
+//			var time = oDate.getTime();
+//			var oDate1 = +new Date();
+//			console.log(oDate);
+//			console.log(time);
+//			console.log(oDate1);
+			var newTime = +new Date('March 16,2016 11:50:00');
+			var nowTime = +new Date();
+//			var t = (newTime - nowTime)/1000;
+//			var d = Math.floor(t/86400);
+//			var h = Math.floor(t%86400/3600);
+//			var m = Math.floor(t%86400%3600/60);
+//			var t1 = Math.floor(t%60);
+//			console.log(newTime);
+//			console.log(nowTime);
+//			console.log(d);
+//			console.log(h);
+//			console.log(m);
+//			console.log(t1);
+			var Time = new Date();
+			var Year = Time.getFullYear();
+			var year = Time.getYear();
+			var Month = Time.getMonth();
+			console.log(Year);
+			console.log(year);
+		}
+	</script>
+
+</html>

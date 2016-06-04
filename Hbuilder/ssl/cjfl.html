@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{:C('WEB_SITE_TITLE')}</title>
+    <meta name="keywords" content="{:C('WEB_SITE_KEYWORD')}">
+    <meta name="description" content="{:C('WEB_SITE_DESCRIPTION')}">
+</head>
+<!--<link rel="stylesheet" type="text/css" href="css/cjfl.css" />-->
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    img {
+        vertical-align: bottom;
+    }
+    body{
+      font-family: "微软雅黑","Hiragino Sans GB";
+    }
+    .clearfix:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+
+    /*banner内容*/
+    .banner {
+        width: 100%;
+        height: 423px;
+        background: url(/Public/Theme/Supertarget/images/cjfl-b.jpg) no-repeat center center;
+    }
+
+    .time {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .time p:nth-of-type(1) {
+        margin-left: 56px;
+        margin-top: 30px;
+        font-size: 34px;
+        color: #540614;
+        font-family: "微软雅黑";
+    }
+
+    .state {
+        margin-left: 56px;
+        font-size: 26px;
+        color: #540614;
+        font-family: "微软雅黑";
+    }
+
+    .state span {
+        float: left;
+    }
+
+    /*头部部分*/
+    .head {
+        width: 100%;
+        height: 60px;
+        background: #FFFFFF;
+    }
+
+    .nav {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #logo {
+        float: left;
+        width: 200px;
+        height: 60px;
+        margin-right: 40px;
+    }
+    .home{
+      float: left;
+      color: #666666;
+      padding: 0 20px;
+      border-left: 1px solid #e4e4e4;
+      margin-top: 20px;
+    }
+    .tel {
+        float: right;
+        font: 14px/60px "微软雅黑";
+    }
+
+    .tel img {
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    /*时间状态*/
+    .timestate {
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 27px;
+    }
+
+    .pic {
+        width: 960px;
+        padding: 0 20px;
+    }
+
+    .pic img {
+        float: left;
+    }
+
+    .listT {
+        width: 960px;
+        padding: 0 20px;
+    }
+
+    .listT li {
+        float: left;
+        margin-right: 138px;
+        font-family: "微软雅黑";
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .listT li:nth-of-type(4) {
+        margin-right: 0;
+    }
+
+    .article {
+        font-family: "微软雅黑";
+        margin-top: 60px;
+        line-height: 25px;
+    }
+    .red{
+      color: #e1662d;
+    }
+    .gray{
+      color: #959595;
+    }
+
+    /*投标平台*/
+    .platform {
+        width: 100%;
+        height: 540px;
+        padding-top: 40px;
+        background: #f8f8f8;
+        position: relative;
+    }
+
+    .platform-n {
+        width: 992px;
+        height: 352px;
+        border: 4px solid #fd8f25;
+        margin: 0 auto;
+        background: #FFFFFF;
+    }
+
+    .platL {
+        width: 706px;
+        float: left;
+    }
+
+    .platT {
+        margin-bottom: 45px;
+    }
+
+    .platT img {
+        float: left;
+        margin: 16px 0 0 20px;
+    }
+
+    .platT span {
+        float: left;
+        width: 260px;
+        text-align: left;
+        font: 18px/22px "微软雅黑";
+        color: #333333;
+        margin: 20px 0 0 40px;
+    }
+
+    .platN {
+        margin-bottom: 35px;
+    }
+
+    .platform .platN li {
+        width: 175px;
+        height: 70px;
+        border-right: 1px solid #fccfa6;
+        float: left;
+    }
+
+    .platN p {
+        text-align: center;
+    }
+
+    .platN p:nth-of-type(1) {
+        font: 28px/40px "微软雅黑";
+        color: #f48c29;
+    }
+
+    .platN p:nth-of-type(2) {
+        font: 14px/22px "微软雅黑";
+        color: #646464;
+    }
+
+    .platform .platN li:nth-of-type(4) {
+        border-right: none;
+    }
+
+    .platE {
+        width: 538px;
+        padding-left: 168px;
+        margin-bottom: 33px;
+    }
+
+    .platE li {
+        float: left;
+        font: 14px/25px "微软雅黑";
+        margin-right: 60px;
+    }
+
+    .platB {
+        width: 706px;
+
+    }
+
+    .platB a {
+        margin: 0 auto;
+        display: block;
+        width: 180px;
+        text-align: center;
+        font: 16px/40px "微软雅黑";
+        color: #FFFFFF;
+
+    }
+
+    .platB #out a {
+        display: inline-block;
+        width: 160px;
+    }
+
+    .platB #out a:nth-of-type(1) {
+        background: #D7D7D7;
+        margin-right: 20px;
+    }
+
+    .platB #out {
+        text-align: center;
+    }
+
+    #unopened {
+        background-color: #D7D7D7;
+    }
+
+    #have {
+        background-color: #D7D7D7;
+    }
+
+    #begin {
+        background-color: #f48d24;
+    }
+
+    #over {
+        background-color: #D7D7D7;
+    }
+
+    #closed {
+        background-color: #D7D7D7;
+    }
+
+    #reserves {
+        text-align: center;
+    }
+
+    #reserves input {
+        width: 158px;
+        height: 38px;
+        border: 1px solid #f48d24;
+        font: 16px/38px "微软雅黑";
+        text-align: center;
+    }
+
+    #reserves .reservesA {
+        display: inline-block;
+        background-color: #f48d24;
+        margin-left: 20px;
+    }
+
+    /**/
+    .platR {
+        width: 282px;
+        float: left;
+        border-left: 4px solid #fd8f25;
+    }
+
+    .platR h3 {
+        font: 26px/60px "微软雅黑";
+        text-align: center;
+        color: #FFFFFF;
+        background: #fd8f25;
+    }
+
+    #scrollDiv {
+        overflow: hidden;
+        height: 260px;
+    }
+
+    .phone {
+        height: 260px;
+        background: #FFFFFF;
+        padding: 0 16px;
+
+    }
+
+    .phone li {
+        position: relative;
+        top: 0;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        height: 19px;
+        padding-top: 20px;
+        text-align: center;
+        border-bottom: 1px dashed #c2c5ba;
+    }
+
+    .phone li span:nth-of-type(1) {
+        float: left;
+    }
+
+    .phone li span:nth-of-type(3) {
+        float: right;
+    }
+
+    .platR p {
+        font: 14px/36px "微软雅黑";
+        color: #FFFFFF;
+        text-align: center;
+        background: #fd8f25;
+    }
+
+    /**/
+
+    .students {
+        margin: 0 auto;
+        width: 1180px;
+        height: 320px;
+        position: relative;
+    }
+
+    .four_flash {
+        width: 1180px;
+        height: 200px;
+        position: absolute;
+        top: 80px;
+    }
+
+    .flashBg {
+        width: 1088px;
+        height: 181px;
+        position: relative;
+        overflow: hidden;
+        left: 35px;
+    }
+
+    #mobile {
+        width: 2000%;
+        height: 181px;
+        position: absolute;
+        top: 15;
+        left: 0;
+    }
+
+    .list {
+        width: 318px;
+        height: 179px;
+        float: left;
+        margin-left: 35px;
+        border: 1px solid #ff870b;
+    }
+
+    .but_left {
+        position: absolute;
+        top: 45px;
+        left: 0px;
+    }
+
+    .but_right {
+        position: absolute;
+        top: 45px;
+        right: 0px;
+    }
+
+    /*平台列表*/
+    .past {
+        width: 1180px;
+        height: 354px;
+        margin: 0 auto;
+    }
+
+    .past a {
+        font-size: 80px;
+        color: #cccccc;
+        font-weight: bolder;
+    }
+
+    .pastL {
+        float: left;
+        width: 1065px;
+        height: 181px;
+        margin-top: 90px;
+        overflow: hidden;
+    }
+
+    .pastL .list {
+        position: relative;
+        left: 0;
+        width: 318px;
+        height: 179px;
+        float: left;
+        margin-left: 35px;
+        border: 1px solid #ff870b;
+    }
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    .title img {
+        display: inline-block;
+        margin: 20px 0 0 20px;
+    }
+
+    .title span {
+        font: 20px/40px "微软雅黑";
+        color: #f47c00;
+        margin-left: 15px;
+    }
+
+    #maindiv1 .pastM {
+        margin-top: 40px;
+        padding-left: 7px;
+        position: static;
+    }
+
+    .pastM-list {
+        width: 63px;
+        padding: 0 9px;
+        float: left;
+        border-right: 1px solid #f48e25;
+    }
+
+    .pastM-list p:nth-of-type(1) {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        text-align: center;
+        color: #f48e25;
+    }
+
+    .pastM-list p:nth-of-type(2) {
+        font-size: 12px;
+        font-family: "微软雅黑";
+        text-align: center;
+        color: #808080;
+    }
+
+    .pastM-list:nth-of-type(3) {
+        border-right: none;
+    }
+
+    .pastM-btn {
+        width: 43px;
+        text-align: center;
+        float: left;
+        color: #ffaf5b;
+        border: 1px solid #ffaf5b;
+        font: 14px/25px "微软雅黑";
+    }
+
+    /*规则*/
+    .rule {
+        width: 100%;
+        height: 351px;
+        background: url(/Public/Theme/Supertarget/images/cjfl-sm.jpg);
+    }
+
+    .ruleA {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .ruleA h2 {
+        padding-top: 50px;
+        margin-bottom: 18px;
+    }
+
+    .ruleA h2 span:nth-of-type(1) {
+        font-size: 24px;
+        font-family: "微软雅黑";
+        color: #f47c00;
+        font-weight: normal;
+    }
+
+    .ruleA h2 span:nth-of-type(2) {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        font-weight: normal;
+    }
+
+    .ruleA p {
+        font: 14px/26px "微软雅黑";
+    }
+
+    #move li {
+        float: left;
+    }
+
+    /*提示框*/
+    .tip {
+        width: 1000px;
+        height: 414px;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: url(/Public/Theme/Supertarget/images/tip.png) no-repeat center center;
+        z-index: 1000;
+    }
+    .tip1 {
+        width: 1000px;
+        height: 414px;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: url(/Public/Theme/Supertarget/images/tip.png) no-repeat center center;
+        z-index: 1000;
+    }
+
+    .tip p:nth-of-type(1) {
+        margin: 63px 0 0 364px;
+        font: 28px/118px "微软雅黑";
+        color: #fd8f25;
+    }
+
+    .platform .tip1 p {
+      margin: 73px 0 40px 364px;
+      font: 28px/40px "微软雅黑";
+      color: #fd8f25;
+    }
+
+    .tip p:nth-of-type(2) {
+        margin-left: 364px;
+        font-size: 22px;
+        color: #ffffff;
+        font-family: "微软雅黑";
+        margin-bottom: 59px;
+    }
+
+    .tip a:nth-of-type(1) {
+        width: 180px;
+        display: inline-block;
+        background: #fd8f25;
+        color: #ffffff;
+        margin-left: 364px;
+        text-align: center;
+        font: 18px/50px "微软雅黑";
+    }
+
+    .tip a:nth-of-type(2) {
+        box-sizing: border-box;
+        width: 180px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        margin-left: 10px;
+        text-align: center;
+        font: 18px/50px "微软雅黑";
+    }
+    .tip1 a:nth-of-type(1) {
+        width: 180px;
+        display: inline-block;
+        background: #fd8f25;
+        color: #ffffff;
+        margin-left: 364px;
+        text-align: center;
+        font: 18px/50px "微软雅黑";
+    }
+
+    .tip1 a:nth-of-type(2) {
+        box-sizing: border-box;
+        width: 180px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        margin-left: 10px;
+        text-align: center;
+        font: 18px/50px "微软雅黑";
+    }
+
+
+    .mask {
+        width: 100%;
+        height: 2478px;
+        background: rgba(0, 0, 0, .6);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+</style>
+<script src="/Public/Home/js/jquery.js"></script>
+<script src="/node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+<body>
+<section>
+    <header class="head">
+        <nav class="nav clearfix">
+            <a href="/"><img src="/Public/Theme/Supertarget/images/swlogo.png" id="logo"></a>
+            <a href="javascript:;" class="home">< 返回首页</a>
+            <div class="tel">
+                <img src="/Public/Theme/Supertarget/images/swtel.jpg"/>
+                <span>400-688-6605 &nbsp;&nbsp;  | &nbsp;&nbsp;  <a href="http://wpa.qq.com/msgrd?v=3&uin=2193525075&site=qq&menu=yes" style="color:#333">在线客服</a> </span>
+            </div>
+        </nav>
+        <!-- <div class="time">
+            <p>
+                <span>第{$activeinfo.cycle}期</span>
+            </p>
+            <span id="shijian" style="display: none;">{:time_format($activeinfo['appoint_start'],'Y-m-d H:i')}</span>
+            <span id="shijian2" style="display: none;">{:time_format($activeinfo['bid_start'],'Y-m-d H:i')}</span>
+            <span id="shijian3" style="display: none;">{:time_format($activeinfo['bid_end'],'Y-m-d H:i')}</span>
+            <p class="state clearfix">
+                <eq name="status" value="7">
+                    <span>捡漏进行中</span>
+                    <span id="time_name" style="margin-right:20px;display: none">距预约开始</span>
+                    <span id="timer-t" style="display: none"></span>
+                    <span id="timer-s" style="display: none"></span>
+                    <span id="timer-f" style="display: none"></span>
+                    <span id="timer-m" style="display: none"></span>
+                    <else/>
+                    <span id="time_name" style="margin-right:20px;">距预约开始</span>
+                    <span id="timer-t"></span>
+                    <span id="timer-s"></span>
+                    <span id="timer-f"></span>
+                    <span id="timer-m"></span>
+                </eq>
+            </p>
+            <!--<img src="img/hy.gif">-->
+        <!-- </div> -->
+    </header>
+</section>
+<section class="banner">
+
+</section>
+<section style="width: 100%;height: 200px;">
+    <section class="timestate">
+        <div class="pic clearfix">
+            <!--预约开始-->
+            <if condition="time() gt $activeinfo['appoint_start']">
+                <img src="/Public/Theme/Supertarget/images/t1-1.jpg" style="display: ;"/>
+                <else/>
+                <img src="/Public/Theme/Supertarget/images/t5.jpg" style="display: ;"/>
+            </if>
+            <!--预约结束-->
+            <if condition="time() gt $activeinfo['appoint_end']">
+                <img src="/Public/Theme/Supertarget/images/t2-2.jpg" style="display: ;"/>
+                <else/>
+                <img src="/Public/Theme/Supertarget/images/t6.jpg" style="display: ;"/>
+            </if>
+            <!--开始投标-->
+            <if condition="time() gt $activeinfo['bid_start']">
+                <img src="/Public/Theme/Supertarget/images/t3-3.jpg" style="display: ;"/>
+                <else/>
+                <img src="/Public/Theme/Supertarget/images/t7.jpg" style="display: ;"/>
+            </if>
+            <!--投标结束-->
+            <if condition="time() gt $activeinfo['bid_end']">
+                <img src="/Public/Theme/Supertarget/images/t4.jpg" style="display: ;"/>
+                <else/>
+                <img src="/Public/Theme/Supertarget/images/t8.jpg" style="display: ;"/>
+            </if>
+        </div>
+        <ul class="listT clearfix">
+            <li><span class="red">2016</span><span class="gray">年</span><span class="red">01</span><span class="gray">月</span><span class="red">25</span><span class="gray">日</span> <span class="red">14：30</span></li>
+            <li><span class="red">2016</span><span class="gray">年</span><span class="red">01</span><span class="gray">月</span><span class="red">25</span><span class="gray">日</span> <span class="red">14：30</span></li>
+            <li><span class="red">2016</span><span class="gray">年</span><span class="red">01</span><span class="gray">月</span><span class="red">25</span><span class="gray">日</span> <span class="red">14：30</span></li>
+            <if condition="time() gt $activeinfo['bid_end']">
+                <li><span class="red">2016</span><span class="gray">年</span><span class="red">01</span><span class="gray">月</span><span class="red">25</span><span class="gray">日</span> <span class="red">14：30</span></li>
+                <else/>
+            </if>
+        </ul>
+    </section>
+</section>
+<section class="platform">
+    <div style="height: 46px;">
+        <p style="display: block; width: 1000px;margin: 0 auto;font: 22px/46px '微软雅黑'; color: #333333;" id="move" class="clearfix">
+            注：生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。
+        </p>
+    </div>
+    <div class="platform-n clearfix">
+        <div class="platL">
+            <div class="platT clearfix">
+                <img src="{$activeinfo.logo}"/>
+                <span>本期总金额　：&nbsp<b style="font-size:20px; font-weight:normal;color:#d93a2b;  ">{$activeinfo['amount'] / 10000}万元</b><br/>
+                剩余预约金额：&nbsp<b style="font-size:20px; font-weight:normal;color:#d93a2b;  " class="surplus_amount">{:number_format($activeinfo['surplus_amount'])}元</b></span>
+                <img src="/Public/Theme/Supertarget/images/yycs.gif" alt="预约从速" style="margin-left:0;">
+            </div>
+            <ul class="platN clearfix">
+                <li>
+                    <p>{$activeinfo.ratebyyear}% </p>
+
+                    <p>原标收益率</p>
+                </li>
+                <li>
+                    <p>{$activeinfo.rebate}% </p>
+
+                    <p>生菜超级返利</p>
+                </li>
+                <li>
+                    <p>{:target_term($activeinfo['term'])}</p>
+
+                    <p>期限</p>
+                </li>
+                <li>
+                    <p>{$activeinfo.lowest}￥</p>
+
+                    <p>起投</p>
+                </li>
+            </ul>
+            <ul class="platE clearfix">
+                <li>保障方式：{$activeinfo.safeguard_type}</li>
+                <li>还款方式：{$activeinfo.refundtype}</li>
+                <li>计息时间：{$activeinfo.interest_time}</li>
+                <li>预约限额：{$activeinfo.quota}</li>
+            </ul>
+            <div class="platB">
+                <switch name="status">
+                    <case value="-1"><a href="javascript:;" id="have">活动已结束</a></case>
+                    <case value="0"><a href="javascript:;" id="have">上期违约，本期不可预约</a></case>
+                    <case value="1"><a href="javascript:;" id="unopened">预约未开放</a></case>
+                    <case value="2">
+                        <div id="reserves">
+                            <input type="text" name="" id="qian" value="" placeholder="预约金额"/>
+                            <a href="javascript:;" class="reservesA" id="reservesA">立即预约</a>
+                        </div>
+                    </case>
+                    <case value="3"><a href="javascript:;" id="closed">预约已关闭</a></case>
+                    <case value="4"><a href="{:U('Home/Target/detail',array('id'=>$activeinfo['tid'],'code'=>param_verify($activeinfo['tid'])))}" id="begin">立即投标</a></case>
+                    <case value="5">
+                        <div id="out">
+                            <a href="javascript:;" id="begin" class="cancel">已预约</a>
+                            <a href="javascript:;" id="begin" class="cancel outcash">取消预约</a>
+                        </div>
+                    </case>
+                    <case value="6"><a href="javascript:;" id="have">预约金额已满</a></case>
+                    <case value="7"><a href="{:U('Home/Target/detail',array('id'=>$activeinfo['tid'],'code'=>param_verify($activeinfo['tid'])))}" id="begin">捡漏中...&nbsp&nbsp立即去投标</a></case>
+                    <case value="8"><a href="javascript:;" id="have" style="line-height:24px;">本期取消预约满3 次，不可预约</a></case>
+                </switch>
+            </div>
+        </div>
+        <div class="platR">
+            <h3>本期预约名单</h3>
+
+            <div class="" id="scrollDiv">
+                <ul class="phone" id="phone">
+                    <volist name="userlist" id="vo">
+                        <li><span>{:substr_replace($vo['mobile'],'****',3,4)}</span><span>{$vo.amount}元</span><span>{:time_format($vo['create_time'],'H:i:s')}</span></li>
+                    </volist>
+                </ul>
+            </div>
+            <p>
+                <notempty name="current_appoint">您本次的预约金额为{$current_appoint.amount}元
+                    <else/>
+                    您尚未预约本期活动
+                </notempty>
+            </p>
+        </div>
+    </div>
+    <p style="width: 1000px;margin:0 auto; font: 14px/34px '微软雅黑'; color: #666666;">超级返利第{$activeinfo['cycle'] + 1}期预约时间：{:date("Y-m-d H:i",$activeinfo['next_appoint'])}</p>
+
+    <div class="tip" style="display: none;">
+        <p id="stext">您本次的预约金额为<span id="cash">50000元</span></p>
+
+        <p>生菜网将按照您预约的投资金额进行返利，<br/>多投部分及少投均不予返利。</p>
+        <a href="javascript:;" id="return">返回修改</a>
+        <a href="javascript:;" id="confirm">确认预约</a>
+    </div>
+    <div class="tip1" style="display: none;">
+        <p>您本次预约{$current_appoint.amount}元，<br/>取消预约有可能导致<br/>您无法参加本次超级返活动。</p>
+        <a href="javascript:;" id="return1">返回</a>
+        <a href="javascript:;" id="confirm1">确认取消预约</a>
+    </div>
+</section>
+<section class="mask" style="display: none;">
+
+</section>
+<section class="past clearfix">
+    <!---->
+    <div class="students" id="">
+
+        <div class="four_flash">
+            <a href="javascript:;" class="but_left" id="goleft">&lt;</a>
+
+            <div class="flashBg ">
+                <ul id="mobile">
+                    <volist name="before_list" id="vo">
+                        <li class="list" id="list">
+                            <div class="title">
+                                <img src="{$vo.logo}"/>
+                                <span>第{$vo.cycle}期</span>
+                            </div>
+                            <div class="pastM clearfix">
+                                <div class="pastM-list">
+                                    <p>{$vo.ratebyyear}%</p>
+
+                                    <p>平台年化率</p>
+                                </div>
+                                <div class="pastM-list">
+                                    <p>{$vo.rebate}%</p>
+
+                                    <p>生菜年化率</p>
+                                </div>
+                                <div class="pastM-list">
+                                    <p>{:target_term($vo['term'])} </p>
+
+                                    <p>期限</p>
+                                </div>
+                                <div class="pastM-btn">
+                                    {$vo.amount}万元
+                                </div>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+            <a href="javascript:;" class="but_right" id="goright">&gt;</a>
+        </div>
+</section>
+<section class="rule">
+    <article class="ruleA">
+        <h2>
+            <span>超级返利规则  </span>
+            <span>（规则名词解释）</span>
+        </h2>
+
+        <p>1、须是通过生菜网跳转注册且在超级返利活动页面成功投资指定标的菜主才可获得返利；
+            <br/> 2、预约金额须为2000的整数倍，最后一位预约用户的预约金额若大于剩余可预约金额时，自动判定为其预约金额为剩余可预约金额。
+            <br/> 3、生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。且预约未投资及投资金额小于预约金额的菜主，禁止参加下期超级返利；
+            <br/> 4、超级返利预计每周开放一期，周三14：30开始预约，周五10：30开始投标；
+            <br/> 5、本期已预约成功用户，在投标开始之前，可以选择取消预约（注：取消预约次数超过3次以上，本期不可再预约）；
+            <br/><span style="display:block; background:#fcf2d8;box-shadow:0 0 10px #666">6、捡漏机制：捡漏机制开启期间，之前没有成功预约的菜主们，投资超级返页面指定标的成功后，也可以拿到返利；<br/>
+    &nbsp&nbsp&nbsp&nbsp（注：捡漏机制仅仅做为补充工具，开启时间不固定，为保证收益，请菜主们按照正常超级返预约投标流程操作）</span>
+            7、本活动解释权归生菜网所有，并遵循生菜网免责声明。如有问题，请联系在线客服或拨打400电话垂询。
+        </p>
+    </article>
+</section>
+</body>
+<script type="text/javascript">
+    //号码轮播
+    $(function () {
+        var $this = $("#scrollDiv");
+        var scrollTimer;
+        var len = $('#phone li').length;
+        $this.hover(function () {
+            clearInterval(scrollTimer);
+        }, function () {
+            if (len <= 6) return false;
+            scrollTimer = setInterval(function () {
+                scrollNews($this);
+            }, 2000);
+        }).trigger("mouseleave");
+
+        function scrollNews(obj) {
+            var $self = obj.find("#phone");
+            var lineHeight = 40;
+            $self.animate({
+                "marginTop": -lineHeight + "px"
+            }, 600, function () {
+                $self.css({
+                    marginTop: 0
+                }).find("li:first").appendTo($self);
+            })
+        }
+    });
+
+    //平台轮播
+    var n = 0;
+    $("#goright").click(function () {
+        $("#mobile").animate({'margin-left': -355}, function () {
+            $("#mobile").find('li').eq(0).appendTo($("#mobile"));
+            $("#mobile").css({'margin-left': 0});
+        });
+    });
+
+
+    $("#goleft").click(function () {
+        $("#mobile").find('li:last').prependTo($("#mobile"));
+        $("#mobile").css({'margin-left': -355});
+        $("#mobile").animate({'margin-left': 0});
+    });
+
+    //投标限额
+    $("#qian").blur(function () {
+        var q = "{$activeinfo.lowest}";
+        var qs = parseInt(q);
+        var qq = "{$activeinfo.quota}";
+        var qqs = parseInt(qq);
+        var w = $("#qian").val();
+        if (w < qs) {
+            alert("不能小于预约最低金额");
+            $("#qian").val("")
+        } else if (w > qqs) {
+            alert("不能大于投标限额");
+            $("#qian").val("")
+        } else if (w % 2000 !== 0) {
+            alert('请输入2000的整数倍');
+            $("#qian").val("")
+        }
+    });
+    //字体动画
+    var mytext = '注：生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。 ';
+    var t;
+    var it;
+    function initialize() {
+        $("#move").text("");
+        it = 0;
+        typeit();
+    }
+
+    function typeit() {
+        $("#move").append(mytext.charAt(it));
+        if (it < mytext.length - 1) {
+            it++;
+            t = setTimeout("typeit()", 100);
+        }
+        else
+            clearTimeout(t);
+    }
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var this_scrollTop = $(this).scrollTop();
+            if (this_scrollTop == 900) {
+                $('#move').css('display', 'block')
+                initialize();
+            }
+        })
+    });
+    //确认遮罩层
+    $('#reservesA').click(function () {
+        var code = /^[1-9]\d*$/;
+        var w = $("#qian").val();
+        if (!code.test(w) && $('#qian').val() != '') {
+            alert('请输入整数');
+            return false;
+        }
+
+        if (w) {
+            $('.mask').css('display', 'block');
+            $('.tip').css('display', 'block');
+            $('#cash').text(w);
+        } else {
+            alert('请输入金额')
+        }
+    });
+    $('#return').click(function () {
+        $('.mask').css('display', 'none');
+        $('.tip').css('display', 'none')
+    });
+    // 取消遮罩层
+    $(".outcash").click(function () {
+        $('.mask').css('display', 'block');
+        $('.tip1').css('display', 'block');
+        $('#return1').click(function () {
+            $('.mask').css('display', 'none');
+            $('.tip1').css('display', 'none')
+        });
+    })
+    //确认预约ajax请求
+    $('#confirm').click(function () {
+        var w = $("#qian").val();
+        var q = "{$activeinfo.cycle}";
+        $.post("{:U('Theme/Supertarget/appointment')}", {cycle: q, amount: w}, function (data) {
+            if (data.status == 1) {
+                $('#stext').text(data.info);
+                setTimeout("location.reload()", 2000);
+            } else {
+                switch (data.url) {
+                    case 1: // 未登录,跳转登录页面
+                        location.href = "{:U('Home/User/login')}";
+                        return false;
+                }
+                $('#stext').text(data.info)
+            }
+        })
+    });
+
+    // 取消预约
+    $('#confirm1').click(function () {
+        var cycle = "{$activeinfo.cycle}";
+        $.post("{:U('Theme/Supertarget/cancelAppoint')}", {cycle: cycle}, function (data) {
+            if (data.status == 1) {
+                alert('取消预约成功');
+                window.location.reload();
+            } else {
+                alert('取消预约失败');
+            }
+        });
+    });
+
+    //
+    window.onload = function () {
+        //倒计时
+        showLeftTime();
+        var timeID = setTimeout(showLeftTime, 1000);
+
+        function showLeftTime() {
+            var timeID = setTimeout(showLeftTime, 1000);
+            var str = $("#shijian").text();//开始预约
+            // var str1=$("#shijian1").text();//预约结束
+            var str2 = $("#shijian2").text();//投标开始
+            var str3 = $("#shijian3").text();//活动结束
+            str = str.replace(/-/g, '/');
+            // str1=str1.replace(/-/g,'/');
+            str2 = str2.replace(/-/g, '/');
+            str3 = str3.replace(/-/g, '/');
+            var datex = new Date(str);//开始预约
+            var datey = new Date(str2);//投标开始
+            var datez = new Date(str3);//活动结束
+            // var date1 = new Date(str1);//预约结束
+            var date2 = new Date();
+            var ts1 = (new Date(datex)) - (new Date());//计算预约剩余的毫秒数
+            var dd1 = parseInt(ts1 / 1000 / 60 / 60 / 24, 10);//计算预约剩余的天数
+            var hh1 = parseInt(ts1 / 1000 / 60 / 60 % 24, 10);//计算预约剩余的小时数
+            var mm1 = parseInt(ts1 / 1000 / 60 % 60, 10);//计算预约剩余的分钟数
+            var ss1 = parseInt(ts1 / 1000 % 60, 10);//计算预约剩余的秒数
+            dd1 = checkTime(dd1);
+            hh1 = checkTime(hh1);
+            mm1 = checkTime(mm1);
+            ss1 = checkTime(ss1);
+
+            var ts2 = (new Date(datey)) - (new Date());//计算投标开始剩余的毫秒数
+            var dd2 = parseInt(ts2 / 1000 / 60 / 60 / 24, 10);//计算投标开始预约剩余的天数
+            var hh2 = parseInt(ts2 / 1000 / 60 / 60 % 24, 10);//计算投标开始预约剩余的小时数
+            var mm2 = parseInt(ts2 / 1000 / 60 % 60, 10);//计算投标开始预约剩余的分钟数
+            var ss2 = parseInt(ts2 / 1000 % 60, 10);//计算投标开始预约剩余的秒数
+            dd2 = checkTime(dd2);
+            hh2 = checkTime(hh2);
+            mm2 = checkTime(mm2);
+            ss2 = checkTime(ss2);
+
+            var ts3 = (new Date(datez)) - (new Date());//计算投标结束剩余的毫秒数
+            var dd3 = parseInt(ts3 / 1000 / 60 / 60 / 24, 10);//计算投标结束预约剩余的天数
+            var hh3 = parseInt(ts3 / 1000 / 60 / 60 % 24, 10);//计算投标结束预约剩余的小时数
+            var mm3 = parseInt(ts3 / 1000 / 60 % 60, 10);//计算投标结束预约剩余的分钟数
+            var ss3 = parseInt(ts3 / 1000 % 60, 10);//计算投标结束预约剩余的秒数
+            dd3 = checkTime(dd3);
+            hh3 = checkTime(hh3);
+            mm3 = checkTime(mm3);
+            ss3 = checkTime(ss3);
+            //倒计时()》开始预约(datex)》预约结束(date1)》开始投标(datey)》活动结束(datez)
+            if (date2 < datex) {
+                document.getElementById("time_name").innerHTML = '距预约开始';
+                document.getElementById("timer-t").innerHTML = dd1 + '天';
+                document.getElementById("timer-s").innerHTML = hh1 + '时';
+                document.getElementById("timer-f").innerHTML = mm1 + '分';
+                document.getElementById("timer-m").innerHTML = ss1 + '秒';
+            } else if (date2 > datex && date2 < datey) {
+                document.getElementById("time_name").innerHTML = '距投标开始';
+                document.getElementById("timer-t").innerHTML = dd2 + '天';
+                document.getElementById("timer-s").innerHTML = hh2 + '时';
+                document.getElementById("timer-f").innerHTML = mm2 + '分';
+                document.getElementById("timer-m").innerHTML = ss2 + '秒';
+            } else if (date2 > datex && date2 > datey && date2 < datez) {
+                document.getElementById("time_name").innerHTML = '预计投标结束';
+                document.getElementById("timer-t").innerHTML = dd3 + '天';
+                document.getElementById("timer-s").innerHTML = hh3 + '时';
+                document.getElementById("timer-f").innerHTML = mm3 + '分';
+                document.getElementById("timer-m").innerHTML = ss3 + '秒';
+            } else if (date2 > datex && date2 > datey && date2 > datez) {
+                document.getElementById("time_name").innerHTML = '投标已结束';
+                document.getElementById("timer-t").innerHTML = '';
+                document.getElementById("timer-s").innerHTML = '';
+                document.getElementById("timer-f").innerHTML = '';
+                document.getElementById("timer-m").innerHTML = '';
+            }
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+    }
+
+    // 发送socket请求
+    var socket = io("http://<?php echo $_SERVER['HTTP_HOST'];?>:1379");
+    socket.on('msgReceived', function (msg) {
+        var data = jQuery.parseJSON(msg);
+        if (data) {
+            for (var key in data) {
+                switch (key) {
+                    case 'surplus_amount':
+                        $('.surplus_amount').html(data[key]);
+                        break;
+                }
+            }
+        }
+    })
+</script>
+</html>

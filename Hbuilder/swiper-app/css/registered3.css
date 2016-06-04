@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.bg{
+	background: url(../img/registered3.jpg) no-repeat center center;
+	height: 34rem;
+	width: 15rem;
+	padding: 0 0.5rem;
+	background-size: cover;
+}
+
+.activity{
+	padding-top: 13.6rem;
+}
+.activity-one{
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.activity-one p:nth-of-type(1){
+	font-size: 0.75rem;
+}
+.activity-one p:nth-of-type(2){
+	font-size: 0.65rem;
+}
+.activity-one img{
+	float: left;
+	width: 1.775rem;
+	height: 2rem;
+	margin-left: 1.25rem;
+}
+.activity-one .word{
+	float: left;
+	margin-left: 2.75rem;
+}
+.activity-one .word p{
+	margin-bottom: 0.45rem;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+}
+
+.activity-two{
+	overflow: hidden;
+}
+.activity-two p:nth-of-type(1){
+	font-size: 0.75rem;
+}
+.activity-two p:nth-of-type(2){
+	font-size: 0.65rem;
+}
+.activity-two img{
+	float: left;
+	width: 1.775rem;
+	height: 2rem;
+	margin-left: 1.25rem;
+}
+.activity-two .word{
+	float: left;
+	margin-left: 2.75rem;
+}
+.activity-two .word p{
+	margin-bottom: 0.45rem;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+}
+
+.prompt{
+	margin: 1.4rem 0 0 1rem;
+}
+.prompt p{
+	color: #FFFFFF;
+}
+.prompt p:nth-of-type(1){
+	font: 0.65rem/1.05rem "微软雅黑";
+}
+.prompt p:nth-of-type(2){
+	font: 0.5rem/1.05rem "微软雅黑";
+}
+.prompt p:nth-of-type(3){
+	font: 0.5rem/1.05rem "微软雅黑";
+}
+
+
+.bg .logo{
+	width: 1.95rem;
+	height: 1.95rem;
+	margin: 0 auto;
+	margin-top: 2.125rem;
+	display: block;
+}
+.bg .logo-tip{
+	width:4.5rem;
+	height: 0.75rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.25rem;
+}
+.bg .ad{
+	font-size: 0.45rem;
+	color: #ffffff;
+	text-align: center;
+	margin: 0.5rem 0 0 0.75rem;
+}
+
+/*底部*/
+.foot-po{
+	height: 2.425rem;
+}
+.foot{
+	width: 15rem;
+	height: 2.425rem;
+	padding:0 0.5rem;
+	background-color:#eeeeee;
+	position: fixed;
+	bottom: 0;
+}
+.foot div{
+	float: left;
+}
+.foot div:nth-of-type(3){
+	float: right;
+}
+.foot img{
+	width:1.7rem;
+	height: 1.7rem;
+	margin-top: 0.375rem;
+}
+.title{
+	display: inline-block;
+	font: 0.7rem/2.425rem "微软雅黑";
+	color: #88b73d;
+	margin-left: 0.7rem;
+}
+.foot a{
+	display: inline-block;
+	width:2.5rem ;
+	height: 1.125rem;
+	background: #66a402;
+	color: #fff;
+	font: 0.7rem/1.125rem "微软雅黑";
+	text-align: center;
+	border-radius: 0.1rem;
+	margin-top: 0.65rem;
+}

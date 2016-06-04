@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/wapde.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/wapde.js" charset="utf-8"></script>
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <header class="head clearfix">
+    <a href="javascript:;"><返回</a>
+    <span>标的详情</span>
+  </header>
+  <section class="plat">
+  <div class="platOne clearfix">
+    <div class="platImg">
+      <img src="img/pt.jpg" alt="" />
+    </div>
+    <span>积木盒子</span>
+    <a href="javascript:;">平台信息 ></a>
+  </div>
+  <div class="platMes">
+    <p>
+      <span>标的名称：</span>
+      <span>新手标新手标新手标新手标新手标</span>
+    </p>
+    <p>
+      <span>标的总额：</span>
+      <span>¥200万</span>
+    </p>
+    <p>
+      <span>标的期限：</span>
+      <span>30万</span>
+    </p>
+  </div>
+  <ul class="platTh clearfix">
+    <li class="platThList">
+      <img src="img/coupon.jpg" alt="" />
+      <span>加息券可用</span>
+    </li>
+    <li class="platThList platThList1">
+      <span>首投</span>
+      <span>未完成</span>
+    </li>
+    <!-- 手机投标 -->
+    <li class="platThList2" style="display:none;">
+      <img src="img/tel.jpg" alt="" />
+      <span>手机投标</span>
+    </li>
+    <!-- 电脑投标 -->
+    <li class="platThList2" style="display:;">
+      <img src="img/conputer.jpg" alt="" style="width:1.25rem;height:1.25rem;">
+      <span>电脑投标</span>
+    </li>
+  </ul>
+  <ul class="platPay clearfix">
+    <li class="platlx">
+      <p>平台利息：</p>
+      <p>10<span style="font-size:0.85rem;">%</span></p>
+    </li>
+    <li class="platlx platlx1">
+      <p>生菜返利：</p>
+      <p>10<span style="font-size:0.85rem; color:#999999">%</span></p>
+    </li>
+    <li class="platlx2">
+      <p>起投金额：</p>
+      <p>￥2000元</p>
+      <p>限投金额：</p>
+      <p>￥2000元</p>
+    </li>
+  </ul>
+  <ul class="platReward">
+    <li>
+      <span class="red">奖</span>
+      <span>投起投金额，即有10元红包(直接转入生菜网账户)</span>
+    </li>
+    <li>
+      <span class="pur">赠</span>
+      <span>投起投金额，即送10菜籽</span>
+    </li>
+    <li>
+      <span class="yel">返</span>
+      <span>通过生菜注册此平台即送5元红包，666元返现券</span>
+    </li>
+  </ul>
+  </section>
+  <!-- 温馨提示 -->
+  <section class="hotTip">
+    <div class="hotTipO">
+      <img src="img/hotTip.jpg" alt="" />
+      <span>温馨提示:</span>
+      <!-- 已完成 -->
+      <span style="color:#549608; display:none;">您已完成此平台首投</span>
+      <!-- 未完成 -->
+      <span style="color:#ff692f;">您未完成此平台首投</span>
+    </div>
+    <p>此标的为复投标的，可重复投资，均有返利</p>
+    <p>先完成此平台首投标的，可达到收益最大化。</p>
+  </section>
+  <section class="couponCon">
+    <div class="coupon">
+      <img src="img/coupon.jpg" alt="" />
+      <span>生菜加息券</span>
+      <a href="javascript:;" style="display:none;">已使用<em style="color:#ffba00; font-size:0.8rem; font-style:normal;">5</em>%加息券 ></a>
+      <a href="javascript:;"><em style="color:#ffba00; font-size:0.8rem; font-style:normal;">5</em> 张加息券可用 ></a>
+    </div>
+    <div class="couponNum">
+      <p>总年化收益计算：10%+10%+5%</p>
+      <p>总年化：<span style="color:#ff692f; font-size:1.35rem;">25</span>%</p>
+      <!-- 手机投标提示 -->
+      <p style="display:none;">可以手机投标：此平台支持手机app跳转投标。</p>
+      <!-- 电脑投标提示 -->
+      <p style="display:;">建议电脑投标：此平台正在技术对接中，暂不支持手机投标。</p>
+    </div>
+  </section>
+  <section class="record">
+    <h3>跳转记录</h3>
+    <ul class="recordList">
+      <li>
+        <img src="img/preson.jpg" alt="" />
+        <div class="recordName">
+          <p>你是传奇</p>
+          <p>03.09 09:55</p>
+        </div>
+        <p class="corderPlat">跳转了积木盒子的标</p>
+      </li>
+      <li>
+        <img src="img/preson.jpg" alt="" />
+        <div class="recordName">
+          <p>你是传奇</p>
+          <p>03.09 09:55</p>
+        </div>
+        <p class="corderPlat">跳转了积木盒子的标</p>
+      </li>
+      <li>
+        <img src="img/preson.jpg" alt="" />
+        <div class="recordName">
+          <p>你是传奇</p>
+          <p>03.09 09:55</p>
+        </div>
+        <p class="corderPlat">跳转了积木盒子的标</p>
+      </li>
+      <li>
+        <img src="img/preson.jpg" alt="" />
+        <div class="recordName">
+          <p>你是传奇</p>
+          <p>03.09 09:55</p>
+        </div>
+        <p class="corderPlat">跳转了积木盒子的标</p>
+      </li>
+    </ul>
+  </section>
+  <!--  -->
+  <!-- 遮罩层 -->
+  <section class="mask" style="display:;"></section>
+  <!-- 平台一键绑定 -->
+  <section class="binding" style="display:;">
+      <!-- 绑定 -->
+      <div class="box" style="display:none;">
+          <h4 class="a_title">平台账号一键绑定</h4>
+
+          <p>
+              绑定后，可以使用生菜账号所绑定的手机<br/>号和所设置的密码登录该平台。
+          </p>
+          <input type="text" name="name" value="" placeholder="设置密码" class="bindingPass" onblur="password()">
+
+          <p class="bindingP">
+
+          </p>
+          <input type="text" name="name" value="" placeholder="确认密码" class="bindingPassword" onblur="passwordAgin()">
+
+          <p class="bindingPA">
+
+          </p>
+
+          <div class="btn_a">
+              <a href="javascript:;" class="con c_con atten_con" onclick="conPassword()">下一步</a>
+              <a href="javascript:;" class="con c_con cannot_con boxCancle">取消</a>
+          </div>
+      </div>
+      <!-- 绑定成功 -->
+      <div class="box box1" style="display:none;">
+          <h4 class="a_title">平台账号一键绑定</h4>
+
+          <p>
+              生菜网账号与平台账号绑定成功！
+          </p>
+
+          <div class="ptB">
+              <img src="img/pt.jpg" alt=""/>
+              <span>积木盒子</span>
+          </div>
+          <p class="">
+              可使用手机号<span style="color:#ff6433;" class="sucTel">13888888888</span>及所设置密码<br/>登录该平台。
+          </p>
+
+          <div class="btn_a">
+              <a href="javascript:;" class="con c_con atten_con box1Con">确定</a>
+          </div>
+      </div>
+      <!-- 绑定失败 -->
+      <div class="box box2" style="display:none;">
+          <h4 class="a_title">平台账号一键绑定</h4>
+
+          <p>
+              绑定失败！
+          </p>
+
+          <p>
+              手机号已注册过！/未知错误！
+          </p>
+          <img src="img/sorry.png" alt=""/>
+
+          <p>
+              请联系客服
+          </p>
+
+          <p>
+              400-688-6605
+          </p>
+
+          <div class="btn_a">
+              <a href="javascript:;" class="con c_con atten_con box2Con">确认</a>
+          </div>
+      </div>
+      <!-- 已绑定   首头-->
+      <section class="atten" style="display:none;">
+          <div class="box">
+              <h4 class="a_title">注意！</h4>
+
+              <p class="a_word">
+                  您将要通过生菜网跳转至平台投标，<strong>只能投资此标的。</strong><span style="color:#fd6d2e">此平台不适合手机投标</span>
+              </p>
+
+              <div class="a_pla">
+                  <img src="img/pt.jpg" alt=""/>
+
+                  <div class="a_p_w">
+                      <span>车辆周转贷 558299-1-1</span>
+                  </div>
+              </div>
+              <p class="a_cash" style="color:#535353;">
+                  此标的为<span style="color:#ff601a;">首投标的</span>，您未完成过首投，
+              </p>
+              <p class="a_cash" style="color:#535353;">
+                  此标的为复投标的，可多次投资
+              </p>
+              <p class="a_no" style="color:#73ac01; font-size:0.7rem;">
+                  投资将得25%年化返利
+              </p>
+
+              <div class="btn_a">
+                  <a href="javascript:;" class="con c_con atten_con attenCon">跳转</a>
+                  <a href="javascript:;" class="cancle c_cancle atten_can attenCancle">取消</a>
+              </div>
+          </div>
+      </section>
+      <!-- 注意 -->
+      <section class="atten" style="display:;">
+          <div class="box">
+              <h4 class="a_title">注意！</h4>
+
+              <p class="a_word">
+                  此标的为<span style="color:#fd6d2e">首投标的</span>，您已完成首投，再次投资生菜网无返利，跳转无效！
+              </p>
+
+              <div class="btn_a">
+                  <a href="javascript:;" class="con c_con atten_con attenCon">确定</a>
+              </div>
+          </div>
+      </section>
+  </section>
+  <!--  -->
+
+  <!--  -->
+  <div style="position:relative; bottom:0;height:2.4rem;"></div>
+  <footer class="foot">
+    <a href="javascript:;">投标</a>
+  </footer>
+</body>
+</html>

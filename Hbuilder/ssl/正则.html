@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<input type="tel" name="" id="tel" value="" placeholder="请输入手机号"/>
+	</body>
+	<script type="text/javascript">
+//	function fn1(){
+//		var reg=/^[0-9]{6}$/;
+//		var tel=$('#tel').val();
+//		if(!reg.test(tel)){
+//			alert('输入错误')
+//		}else{
+//			alert('ok')
+//		}
+//	}
+//		console.log($('#tel').text())
+	$('#tel').blur(function(){
+		var reg=/^[0-9]{6}$/;
+		var tel=$('#tel').val();
+		if(!reg.test(tel) && $('#tel').val()!=''){
+			alert('输入错误')
+		}else{
+			alert('ok')
+		}
+	})
+		
+		
+	</script>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="hash.css" />
+		<script src="data.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="main">
+			<div id="leftBox">
+				<a href="?world">社会招聘</a>
+				<a href="?school">校园招聘</a>
+			</div>
+			<div id="rightBox">
+				<h3></h3>
+				<div id="info"></div>
+				<div id="pageBox" class="clearfix">
+					<a href="javascript:;" id="prev">prev</a>
+					<div id="pages"></div>
+					<a href="javascript:;" id="next">next</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			var oLeft = document.getElementById('leftBox');
+			var oRight = document.getElementById('rightBox');
+			var aA = oLeft.getElementsByTagName('a');
+			var oH3 = document.getElementsByTagName('h3')[0];
+			var oInfo = document.getElementById('info');
+			var aPages = document.getElementById('pages');
+			var oSearch = window.location.search;
+			var json = null;
+			//判断search
+			switch(oSearch){
+				case '':
+					window.location.search = '?world';
+					aA[0].className = 'red';
+					oH3.innerHTML = '社会招聘';
+					json = data;
+					window.location.hash = 'page=1';
+//					alert(1);
+				break;
+				case '?world':
+					aA[0].className = 'red';
+					oH3.innerHTML = '社会招聘';
+					json = data;
+//					alert(2);
+					if(!window.location.hash){
+						window.location.hash = 'page=1';
+					}
+				break;
+				case '?school':
+					aA[1].className = 'red';
+					oH3.innerHTML = '校园招聘';
+					json = data2;
+//					alert(3);
+				break;
+				
+			}
+			//生成page
+			var aPage = Math.ceil(json.length/5);
+			for(var i=0; i<aPage; i++){
+				var oSpan = document.createElement('span');
+				oSpan.innerHTML = i+1;
+				aPages.appendChild(oSpan);
+			}
+			function creatDiv(){
+				oInfo.innerHTML = '';
+				for(var i=0; i<5; i++){
+					if(json[i]){
+						var oDiv = document.createElement('div');
+						oDiv.innerHTML = '<div class="block"><span>'+json[i].num+'</span><span>职位需求'+json[i].job+'</span><span>需求人数'+json[i].pNum+'</span><span>'+json[i].data+'</span></div><div class="gays">'+json[i].ask+'<a href="#">查看</a></div>'
+						oInfo.appendChild(oDiv);
+					}
+				}
+			}
+			creatDiv();
+			
+		}
+	</script>
+
+</html>

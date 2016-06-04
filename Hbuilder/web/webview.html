@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/webview.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <!-- <script src="js/webRe.js" charset="utf-8"></script> -->
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <!--  -->
+  <header class="head clearfix">
+    <a href="webAc.html"><返回</a>
+    <span>下载APP</span>
+  </header>
+  <h4>意见反馈</h4>
+  <textarea placeholder="留下意见建议" class="view"></textarea>
+  <h5>留下联系方式（任选）</h5>
+  <input type="tel" name="name" value="" placeholder="电话：" class="tel input">
+  <input type="text" name="name" value="" placeholder="QQ/Email：" class="mail input">
+  <a href="javascript:;" class="btn">提 交</a>
+  <p>有偿反馈</p>
+  <p>发现重大BUG及时反馈的用户奖励100菜籽/条</p>
+  <p>发现一般bug奖励10菜籽/条</p>
+  <p>提供有效建议奖励10菜籽/条</p>
+</body>
+<script type="text/javascript">
+  $(function(){
+    $('.btn').click(function(){
+      var view = $('.view').val();
+      var tel = $('.tel').val();
+      var mail = $('.mail').val();
+      $.ajax({
+        url:"",
+        type:"post",
+        datatype:"json",
+        data:{},
+        success:function(data){
+          if(data.status == 1){
+            return true;
+          }
+        }
+      })
+    })
+  })
+</script>
+</html>

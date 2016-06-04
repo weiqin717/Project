@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			li{
+				list-style: none;
+				width: 100px;
+				height: 100px;
+				border: 1px solid #000000;
+				float: left;
+				margin: 10px;
+			}
+			.active{
+				background: red;
+			}
+		</style>
+		<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<ul id="box">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</body>
+	<script type="text/javascript">
+//		var box=document.getElementById('box');
+//		var aLi=box.getElementsByTagName('li');
+//		for(var i=0;i<aLi.length;i++){
+//			aLi[i].onclick=function(){
+//				for(var j=0;j<aLi.length;j++){
+//					aLi[j].className='';
+//				}
+//				this.className='active';
+//			}
+//		}
+//		$("#box").on('click',function(){
+//$(this).addClass('active').siblings().not($(this)).removeClass('active');
+//});
+$(function(){
+	$('li').bind('click',function(){
+			var active=$(this).hasClass('active');
+			console.log(active);
+			$('li').removeClass('active');
+			if(!active){
+				$(this).addClass('active');
+			}
+		})
+})
+		
+
+		
+
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

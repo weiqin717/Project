@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/webMycash.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <!-- 资金账号 -->
+  <section style="display:;" class="cashMes">
+    <header class="head clearfix">
+      <a href="webMy.html"><返回</a>
+      <span>资金账户</span>
+    </header>
+    <!--  -->
+    <section class="balance clearfix">
+      <div class="baOne">
+        <span>账户余额</span>
+        <span>¥249.00</span>
+      </div>
+      <div class="baTwo">
+        <span>冻结余额</span>
+        <span>¥57.39</span>
+      </div>
+    </section>
+    <ul class="cashCont">
+      <li class="list clearfix">
+        <img src="img/qd.jpg" alt="" />
+        <div class="cashMes">
+          <p>签到抽到现金奖励</p>
+          <p>2016.02.18</p>
+        </div>
+        <p class="cash">+0.36</p>
+      </li>
+      <li class="list clearfix">
+        <img src="img/fl.jpg" alt="" />
+        <div class="cashMes">
+          <p>返利到账</p>
+          <p>2016.02.18</p>
+        </div>
+        <p class="cash">+12.98</p>
+      </li>
+      <li class="list clearfix">
+        <img src="img/sm.jpg" alt="" />
+        <div class="cashMes">
+          <p>实名认证红包</p>
+          <p>2016.02.18</p>
+        </div>
+        <p class="cash">+5.00</p>
+      </li>
+      <li class="list clearfix">
+        <img src="img/hb.jpg" alt="" />
+        <div class="cashMes">
+          <p>投标红包</p>
+          <p>2016.02.18</p>
+        </div>
+        <p class="cash">+30.00</p>
+      </li>
+      <li class="list clearfix">
+        <img src="img/tx.jpg" alt="" />
+        <div class="cashMes">
+          <p>提现</p>
+          <p>2016.02.18</p>
+        </div>
+        <p class="cash">-50.00</p>
+      </li>
+    </ul>
+    <div style="position:relative; height:2.6rem;width:100%;bottom:0;"></div>
+    <footer class="foot">
+      <a href="javascript:;" class="cashBtn">提现</a>
+    </footer>
+  </section>
+  <!-- 提现 -->
+  <section style="display:none;" class="cashC">
+    <header class="head clearfix">
+      <a href="javascript:;"><返回</a>
+      <span>生菜账号</span>
+    </header>
+    <!--  -->
+    <div class="cashInput clearfix">
+      <span>提现金额</span>
+      <input type="text" name="name" value="" placeholder="请输入您要提现的金额" class="cashICa">
+    </div>
+    <footer class="foot">
+      <a href="javascript:;" class="cashBtn1">提现</a>
+    </footer>
+    <!--  -->
+    <div class="mask" style="display:none;"></div>
+    <div class="tip" style="display:none;">
+      <div class="tipCon">
+        <p>提示</p>
+        <p>您确定要兑换5%加息券吗</p>
+        <div class="btn clearfix">
+          <span class="yes">兑换</span>
+          <span class="no">取消</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    $('.cashBtn').click(function(){
+      $('.cashMes').css('display','none');
+      $('.cashC').css('display','block');
+    });
+    $('.cashBtn1').click(function(){
+      var cashICa = $('.cashICa').val();
+      $.ajax({
+        url:"",
+        type:"post",
+        data:{},
+        success:function(data){
+          if(data.status == 1){
+
+          }else {
+            $('.mask').css('display','block');
+            $('.tip').css('display','block');
+            $('.yes').click(function(){
+              $('.mask').css('display','none');
+              $('.tip').css('display','none');
+            });
+            $('.no').click(function(){
+              $('.mask').css('display','none');
+              $('.tip').css('display','none');
+            });
+          }
+        }
+      })
+    });
+  </script>
+</body>
+</html>

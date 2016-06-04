@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/swiper-3.3.1.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/wapac.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <header class="head clearfix">
+
+    活动
+  </header>
+  <section class="active1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/active1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/active2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/active1.jpg" alt="" />
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <nav class="nav">
+    <a href="webApp.html">
+      <i class="icon iconfont xz">&#xe758;</i>
+      APP下载
+    </a>
+    <a href="webnew.html">
+      <i class="icon iconfont xs">&#xe6d6;</i>
+      新手指引
+    </a>
+    <a href="webview.html">
+      <i class="icon iconfont yj">&#xe635;</i>
+      意见反馈
+    </a>
+  </nav>
+  <section class="activeContent">
+    <div class="cjfl">
+      <img src="img/cjfl1.jpg" alt="" />
+      <p>
+        <span>超级返利</span>
+        <span>返利超高，每周一场</span>
+        <span>(返利10%~16%)</span>
+      </p>
+    </div>
+    <div class="cjfl">
+      <img src="img/xsxsg1.jpg" alt="" />
+      <p>
+        <span>新手限时购</span>
+        <span>返利超高，每天一场</span>
+        <span>(返利5%~10%)</span>
+      </p>
+    </div>
+    <div class="cjfl">
+      <img src="img/jxjh1.jpg" alt="" />
+      <p>
+        <span>精选计划</span>
+        <span>重复投资，返利超高</span>
+        <span>(返利5%~10%)</span>
+      </p>
+    </div>
+  </section>
+  <div style="position:relative;bottom:0;height:2.4rem;"></div>
+  <footer class="foot">
+    <div class="foot1 clearfix">
+      <a href="webAc.html" class="footList">
+        <i class="icon iconfont xs">&#xe63f;</i>
+        <span>活动</span>
+      </a>
+      <a href="webFan.html" class="footList">
+        <i class="icon iconfont xs">&#xe62a;</i>
+        <span>理财</span>
+      </a>
+      <a href="webMy.html" class="footList">
+        <i class="icon iconfont xs">&#xe632;</i>
+        <span>我的</span>
+      </a>
+      <a href="javascript:;" class="other footList">
+        <i class="icon iconfont xs">&#xe627;</i>
+        <span>其它</span>
+      </a>
+    </div>
+    <ul class="foot2 clearfix" style="display:none;">
+      <li>
+        <a href="webApp.html">APP下载</a>
+      </li>
+      <li>
+        <a href="webnew.html">新手指引</a>
+      </li>
+      <li>
+        <a href="webview.html">意见反馈</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/swiper-3.3.1.jquery.min.js" charset="utf-8"></script>
+  <script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: 5000,//可选选项，自动滑动
+    speed:300,
+    autoplayDisableOnInteraction : false,
+
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+  })
+  </script>
+  <script type="text/javascript">
+    $(function(){
+      $('.other').click(function(){
+        $('.foot2').slideToggle('slow');
+      });
+    })
+  </script>
+</body>
+</html>

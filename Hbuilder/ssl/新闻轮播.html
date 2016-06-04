@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+			.box{
+				width: 100px;
+				height: 100px;
+				border: 1px solid #000000;
+				margin: 20px auto;
+				overflow: hidden;
+			}
+			ul{
+				
+			}
+			li{
+				line-height: 20px;
+				border-bottom: 1px dashed #000099;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul class="oul">
+				<li>1111111111</li>
+				<li>2222222222</li>
+				<li>3333333333</li>
+				<li>4444444444</li>
+				<li>5555555555</li>
+				<li>6666666666</li>
+				<li>7777777777</li>
+				<li>8888888888</li>
+				<li>9999999999</li>
+				<li>0000000000</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var $this=$('.box');
+				var scrollTimer;
+				$this.hover(function(){
+					clearInterval(scrollTimer);
+				},function(){
+					scrollTimer=setInterval(function(){
+						scroll($this);
+					},2000);
+				}).trigger('mouseleave');
+//				scroll($('.box'))
+				function scroll(obj){
+					var oUl=obj.find('.oul')
+					var lineHeight=20;
+					oUl.animate({
+						"marginTop":-lineHeight+ 'px'
+					},600,function(){
+						oUl.css({
+							marginTop:0
+						}).find('li:first').appendTo(oUl);
+					})
+				}
+			})
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+

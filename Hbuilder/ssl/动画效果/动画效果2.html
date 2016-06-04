@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box{
+				width: 80px;
+				height: 130px;
+				background: url(pf4.png) no-repeat;
+			}
+			.box1{
+				width: 80px;
+				height: 130px;
+				background: url(pf4.png) no-repeat 0 0;
+			}
+			.box2{
+				width: 80px;
+				height: 130px;
+				background: url(pf4.png) no-repeat -80px 0;
+			}
+			.box3{
+				width: 80px;
+				height: 130px;
+				background: url(pf4.png) no-repeat -160px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1" id="box">
+			
+		</div>
+		<script type="text/javascript">
+			window.onload=function(){
+				var box=document.getElementById('box');
+				var timer=null;
+				var n=1;
+				timer=setInterval(function(){
+					n++;
+					box.className='box'+n+'';
+					if(n==3) n=0;
+				},170)
+			}
+		</script>
+	</body>
+</html>

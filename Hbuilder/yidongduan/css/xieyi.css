@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.warp{
+	width: 14.4rem;
+	padding: 0 0.8rem;
+}
+h1{
+	font-size: 1rem;
+	color: #333333;
+	text-align: center;
+	margin: 2.1rem 0 0.8rem 0;
+	font-weight: normal;
+}
+p{
+	font-size: 0.65rem;
+	margin-bottom: 1rem;
+}
+h4{
+	font-size: 0.65rem;
+	font-weight: normal;
+	line-height: 2rem;
+}

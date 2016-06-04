@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript">
+		var iScale=1;
+		iScale=iScale/window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+'" />')
+	</script>
+  <title>生菜网</title>
+  <script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+	</script>
+  <link rel="stylesheet" href="css/webRe.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/webRe.js" charset="utf-8"></script>
+</head>
+<body>
+  <script>
+		document.body.style.height=document.documentElement.clientHeight+"px";
+	</script>
+  <!--  -->
+    <img src="img/caizhu.jpg" alt="菜主" class="caizhu" />
+  <!--  -->
+  <section class="content">
+    <!-- 手机号 -->
+    <div class="phone register" style="display:none;">
+        <p>终于等到你</p>
+        <input type="text" name="name" value="" placeholder="输入用户名或11位手机号" class="tel">
+        <span class="telTip">
+          <!-- 手机号格式不对/用户名未注册，请输入手机号 -->
+        </span>
+        <a href="javascript:;" class="telNextBtn">下一步</a>
+    </div>
+    <!-- 密码 -->
+    <div class="phone register" style="display:none;">
+        <p>您是生菜网老用户，请输入密码</p>
+        <input type="password" name="name" value="" placeholder="输入密码" class="oldPassword">
+        <span class="oldPasswordTip">
+          <!-- 6-18位字母、数字、符号组合，不含空格 -->
+        </span>
+        <a href="javascript:;" class="passwordNextBtn">下一步</a>
+    </div>
+    <!-- 注册 -->
+    <div class="phone register" style="display:;">
+        <p>注册手机号为 <em style="font-style:normal;color:#68bf21;" class="reTel">182 1212 1234</em><br/><em style="font-style:normal;font-size:0.55rem">系统已帮您把验证码发送至手机</em></p>
+        <div class="codeDiv clearfix">
+          <input type="text" name="name" value="" placeholder="输入验证码" class="code">
+          <a href="javascript:;" class="send">点击发送</a>
+        </div>
+        <span class="codeTip"></span>
+        <input type="password" name="name" value="" placeholder="输入密码" class="password">
+        <span class="passwordTel">
+          <!-- 6-18位字母、数字、符号组合，不含空格 -->
+        </span>
+        <a href="javascript:;" class="pass">完成</a>
+    </div>
+  </section>
+  <!--  -->
+  <div class="" style="position:relative; height:1.75rem; bottom:0;"></div>
+  <section class="logo">
+    <img src="img/logo.jpg" alt="生菜网" />
+    <p>互联网金融精选返利导购</p>
+  </section>
+  <!--  -->
+  <footer class="foot clearfix">
+    <a href="javascript:;">APP下载</a>
+    <a href="javascript:;">新手指引</a>
+    <a href="javascript:;">意见反馈</a>
+  </footer>
+</body>
+</html>

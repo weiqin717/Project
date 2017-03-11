@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="264c0371-712b-48cc-9dda-6be8ef3d00a3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/AngularJS/AngularJS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/AngularJS/js/AngularJS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/anniversary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/css/anniversary.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/acyd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/aqj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/bcw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/dj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/hcd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/jmhz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/lmf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/mljr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/nwd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/qqd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/syd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/wdw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/xwjr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/xxd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/anniversary/img/ytd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/img/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app-w/img/h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/registered.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/registered2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/registered3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/shared.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/css/shared1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/5y.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/aqj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/czq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/czq1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/dz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/fx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/mes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/p4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/pf1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/pf2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/registered1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/registered2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/registered3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/tx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/tx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/img/w1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/registered.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/registered2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/registered3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/shared.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app/shared1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/app.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/registered.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/registered2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/registered3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/shared.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/css/shared1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/5y.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/aqj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/czq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/czq1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/dz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/fx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/mes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/p4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/pf1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/pf2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/registered1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/registered2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/registered3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/tx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/tx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/img/w1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/app1/shared.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5-dist/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_data/translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/ads.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/navs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/components/wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/css/type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/tools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/translations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/getting-started/whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/js/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/nav/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_includes/social-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_jade/customizer-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_jade/customizer-variables.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_plugins/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/_plugins/bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/css/docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/css/src/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/css/src/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/img/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/img/sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/src/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/src/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/assets/js/vendor/uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/blog/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/carousel/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/cover/cover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/cover/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/dashboard/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/grid/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/jumbotron-narrow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/jumbotron/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/jumbotron/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/justified-nav/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/justified-nav/justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar-fixed-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar-static-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/navbar/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/non-responsive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/non-responsive/non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/offcanvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/offcanvas/offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/offcanvas/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/screenshots/theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/signin/signin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/starter-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/starter-template/starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/sticky-footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/theme/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/tooltip-viewport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/docs/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/affix-with-sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/S3Cachefile.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/s3_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/bootstrap/bootstrap-3.3.5/test-infra/uncached-npm-install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/css/cjfl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/cjfl-b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/cjfl-pt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/cjfl-sm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/hy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/list.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/ptlogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/swlogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/swtel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/img/t8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjfl/js/jquery-1.11.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/cjflYd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/cjflYdcash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/cjflYddate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/cjflYdrule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/css/cjflYd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/css/cjflYdcash.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/css/cjflYddate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/css/cjflYdrule.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/icon6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/pt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/t1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/t2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/t3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/img/t4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hbuilder/cjflYd/js/cjflYd.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1374" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hbuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="anniversary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/Hbuilder/anniversary/anniversary.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="canvas.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/Hbuilder/canvas/canvas.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="app.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/Hbuilder/app-w/app.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/Hbuilder/cjfl/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.anniversary.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.canvas.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.app.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.app.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.canvas.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.anniversary.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="264c0371-712b-48cc-9dda-6be8ef3d00a3" name="Default" comment="" />
+      <created>1488942566781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488942566781</updated>
+      <workItem from="1488942568217" duration="67000" />
+      <workItem from="1489229060815" duration="864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="931000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1374" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123873875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11857708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/github.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/AngularJS/AngularJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/AngularJS/js/AngularJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app1/shared.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app-w/1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app-w/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/canvas/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/anniversary/anniversary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app/registered.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app/shared.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1426">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app-w/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/app-w/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbuilder/cjfl/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

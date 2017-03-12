@@ -21,8 +21,6 @@
             <span>本月投资总笔数 </span>
           </li>
           <li class="hid clearfix">
-            <img src="eye1.jpg" alt="" class="eye1">
-            <img src="eye.jpg" alt="" class="eye" style="display:none">
             <span class="hidBtn">隐藏关键信息</span>
           </li>
         </ul>
@@ -96,16 +94,12 @@
         if(onoff){
           var num1 = num.substring(0,0)+'***';
           $('.hidNum').text(num1);
-          $('.eye1').css('display','none');
-          $('.eye').css('display','block');
           $('.hidBtn').text('显示相关信息');
           onoff = !onoff;
         }else{
           for(var i = 0; i<hidNum.length; i++){
             hidNum[i].innerHTML = arr[i];
           };
-          $('.eye1').css('display','block');
-          $('.eye').css('display','none');
           $('.hidBtn').text('隐藏相关信息');
           onoff = !onoff;
         }

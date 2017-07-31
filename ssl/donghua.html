@@ -5,75 +5,79 @@
 		<title></title>
 	</head>
 	<body>
-		 //号码轮播
-    $(function () {
+    <script src="jquery-1.11.3.js"></script>
+    <script>
+      //号码轮播
+      $(function () {
         var $this = $("#scrollDiv");
         var scrollTimer;
         var len = $('#phone li').length;
         $this.hover(function () {
-            clearInterval(scrollTimer);
+          clearInterval(scrollTimer);
         }, function () {
-            if (len <= 6) return false;
-            scrollTimer = setInterval(function () {
-                scrollNews($this);
-            }, 2000);
+          if (len <= 6) return false;
+          scrollTimer = setInterval(function () {
+            scrollNews($this);
+          }, 2000);
         }).trigger("mouseleave");
 
         function scrollNews(obj) {
-            var $self = obj.find("#phone");
-            var lineHeight = 40;
-            $self.animate({
-                "marginTop": -lineHeight + "px"
-            }, 600, function () {
-                $self.css({
-                    marginTop: 0
-                }).find("li:first").appendTo($self);
-            })
+          var $self = obj.find("#phone");
+          var lineHeight = 40;
+          $self.animate({
+            "marginTop": -lineHeight + "px"
+          }, 600, function () {
+            $self.css({
+              marginTop: 0
+            }).find("li:first").appendTo($self);
+          })
         }
-    });
+      });
 
-    //平台轮播
-    var n = 0;
-    $("#goright").click(function () {
+      //平台轮播
+      var n = 0;
+      $("#goright").click(function () {
         $("#mobile").animate({'margin-left': -355}, function () {
-            $("#mobile").find('li').eq(0).appendTo($("#mobile"));
-            $("#mobile").css({'margin-left': 0});
+          $("#mobile").find('li').eq(0).appendTo($("#mobile"));
+          $("#mobile").css({'margin-left': 0});
         });
-    });
+      });
 
 
-    $("#goleft").click(function () {
+      $("#goleft").click(function () {
         $("#mobile").find('li:last').prependTo($("#mobile"));
         $("#mobile").css({'margin-left': -355});
         $("#mobile").animate({'margin-left': 0});
-    });
-    //字体动画
-    var mytext = '注：生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。 ';
-    var t;
-    var it;
-    function initialize() {
+      });
+      //字体动画
+      var mytext = '注：生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。 ';
+      var t;
+      var it;
+      function initialize() {
         $("#move").text("");
         it = 0;
         typeit();
-    }
+      }
 
-    function typeit() {
+      function typeit() {
         $("#move").append(mytext.charAt(it));
         if (it < mytext.length - 1) {
-            it++;
-            t = setTimeout("typeit()", 100);
+          it++;
+          t = setTimeout("typeit()", 100);
         }
         else
-            clearTimeout(t);
-    }
-    $(document).ready(function () {
+          clearTimeout(t);
+      }
+      $(document).ready(function () {
         $(window).scroll(function () {
-            var this_scrollTop = $(this).scrollTop();
-            if (this_scrollTop == 900) {
-                $('#move').css('display', 'block')
-                initialize();
-            }
+          var this_scrollTop = $(this).scrollTop();
+          if (this_scrollTop == 900) {
+            $('#move').css('display', 'block')
+            initialize();
+          }
         })
-    });
+      });
+    </script>
+
 	</body>
 </html>

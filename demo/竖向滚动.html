@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>竖向滚动</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #scrollDiv{
+            height: 88px;
+            overflow: hidden;
+            width: 100px;
+            margin: 0 auto;
+        }
+        li{
+            line-height: 22px;
+            width: 100px;
+            border-bottom: 1px dashed red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="scrollDiv">
+        <ul id="phone">
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+        </ul>
+    </div>
+<script src="jquery-1.11.3.js"></script>
+<script>
+  $(function () {
+    var $this1 = $("#scrollDiv");
+    var $this2 = $("#phone");
+    var scrollTimer;
+    var len = $this2.find('li').length;
+    $this1.hover(function () {
+      clearInterval(scrollTimer);
+    },function () {
+      if (len <= 6) return false;
+      scrollTimer = setInterval(function () {
+        scrollNews(22,$this2);
+      }, 1000);
+    }).trigger("mouseleave");
+
+    function scrollNews(height,obj) {
+      obj.animate({
+        "marginTop": -height + "px"
+      }, 600, function () {
+        obj.css({
+          marginTop: 0
+        }).find("li:first").appendTo(obj);
+      })
+    }
+  });
+</script>
+</body>
+</html>

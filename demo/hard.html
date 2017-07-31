@@ -27,51 +27,15 @@
 		</ul>
 	</body>
 	<script type="text/javascript">
-//		var box=document.getElementById('box');
-//		var aLi=box.getElementsByTagName('li');
-//		for(var i=0;i<aLi.length;i++){
-//			aLi[i].onclick=function(){
-//				for(var j=0;j<aLi.length;j++){
-//					aLi[j].className='';
-//				}
-//				this.className='active';
-//			}
-//		}
-//		$("#box").on('click',function(){
-//$(this).addClass('active').siblings().not($(this)).removeClass('active');
-//});
-$(function(){
-	$('li').bind('click',function(){
-			var active=$(this).hasClass('active');
-			console.log(active);
-			$('li').removeClass('active');
-			if(!active){
-				$(this).addClass('active');
-			}
-		})
-})
-		
-
-		
-
+        $(function(){
+            $('li').bind('click',function(){
+                    var active=$(this).hasClass('active');
+                    console.log(active);
+                    $('li').removeClass('active');
+                    if(!active){
+                        $(this).addClass('active');
+                    }
+                })
+        })
 	</script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

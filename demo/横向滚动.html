@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>横向滚动</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            width: 200px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        ul{
+            height: 20px;
+            width: 1000%;
+        }
+        li{
+            float: left;
+            list-style: none;
+            width: 50px;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span id="goleft">←</span>
+        <ul id="mobile">
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+        </ul>
+        <span id="goright">→</span>
+    </div>
+    <script src="jquery-1.11.3.js"></script>
+<script>
+    $(function () {
+        $("#goright").click(function () {
+          right($("#mobile"));
+        });
+        function right(obj) {
+          obj.animate({'margin-left': -50}, function () {
+            obj.find('li').eq(0).appendTo(obj);
+            obj.css({'margin-left': 0});
+          });
+        }
+        $("#goleft").click(function () {
+            left($("#mobile"));
+        });
+        function left(obj) {
+          obj.find('li:last').prependTo(obj);
+          obj.css({'margin-left': -50});
+          obj.animate({'margin-left': 0});
+        }
+    })
+</script>
+</body>
+</html>

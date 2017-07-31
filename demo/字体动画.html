@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+        <style>
+            body{
+                height: 10000px;
+            }
+        </style>
+	</head>
+	<body>
+    <div id="move">
+
+    </div>
+    <script src="jquery-1.11.3.js"></script>
+    <script>
+      var mytext = '注：生菜网将按照您预约的投资金额进行返利，多投部分及少投均不予返利。 ';
+      var t;
+      var it;
+      function initialize() {
+        $("#move").text("");
+        it = 0;
+        typeit();
+      }
+
+      function typeit() {
+        $("#move").append(mytext.charAt(it));
+        if (it < mytext.length - 1) {
+          it++;
+          t = setTimeout("typeit()", 100);
+        }
+        else
+          clearTimeout(t);
+      }
+      initialize();
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var this_scrollTop = $(this).scrollTop();
+          if (this_scrollTop == 900) {
+            $('#move').css('display', 'block')
+            initialize();
+          }
+        })
+      });
+    </script>
+
+	</body>
+</html>

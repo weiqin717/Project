@@ -1,0 +1,111 @@
+.clearFix:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.Recommend{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+.RecommendContent{
+    perspective: 4000px;
+}
+/*//推荐动画效果*/
+.RecommendList.hover .RecommendFirst {
+  transform: rotateY(180deg);
+}
+.RecommendList.hover .RecommendReply {
+    transform: rotateY(0deg);
+}
+.RecommendList.hover1 .RecommendFirst {
+    transform: rotateY(0deg);
+}
+.RecommendList.hover1 .RecommendReply {
+    transform: rotateY(180deg);
+}
+.RecommendList{
+    overflow: hidden;
+    width:300px;
+    height:400px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.RecommendFirst,.RecommendReply{
+    width:300px;
+    height:400px;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    transition: 0.6s;
+}
+
+.firstOrReZindex{
+    z-index: 2;
+}
+.firstOrRe{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.reCont1{
+    width:300px;
+    height: 200px;
+}
+.color1{
+    background: red;
+}
+.color2{
+    background: blue;
+}
+.reCont2RF{
+    width:75px;
+    height:20px;
+    background: #ff9500;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size:12px;
+    text-align: center;
+    line-height:20px;
+    cursor: pointer;
+    margin-bottom:14px;
+}
+.reCont2R{
+    width:75px;
+    height:20px;
+    background: #1f318e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size:12px;
+    text-align: center;
+    line-height:20px;
+    cursor: pointer;
+    margin-bottom:14px;
+}
+
+.reCont2R p{
+    font-size:14px;
+    width:75px;
+    line-height:20px;
+    background: #5577fc;
+    position: absolute;
+    top:52px;
+    -webkit-border-radius:0 0 3px 3px;
+    -moz-border-radius:0 0 3px 3px;
+    border-radius:0 0 3px 3px;
+    color: #ffffff;
+    text-align: center;
+    z-index:2;
+    padding-top:10px;
+}
+
+

@@ -6,81 +6,26 @@
 	<script src="jquery-1.11.3.js"></script>
 </head>
 <body>
-	<ul class="selfMesTo clearfix">
-          <li class="list date"></li>
-          <li class="list">
-            <span class="hidNum">11</span>
-            <span>在投平台 </span>
-          </li>
-          <li class="list">
-            <span class="hidNum">10000</span>
-            <span>本月投资总额 </span>
-          </li>
-          <li class="list">
-            <span class="hidNum">5</span>
-            <span>本月投资总笔数 </span>
-          </li>
-          <li class="hid clearfix">
-            <span class="hidBtn">隐藏关键信息</span>
-          </li>
-        </ul>
-        <div class="selfMesDe clearfix">
-          <ul class="detailList clearfix">
-            <li>
-              <span class="hidNum">5</span>
-              <span>今日待收笔数</span>
-            </li>
-            <li>
-              <span class="hidNum">300</span>
-              <span>今日待收利息</span>
-            </li>
-            <li>
-              <span class="hidNum">5000</span>
-              <span>今日待收本金</span>
-            </li>
-            <li>
-              <span class="hidNum">100</span>
-              <span>今日待解冻返利 </span>
-            </li>
-          </ul>
-          <ul class="detailList clearfix">
-            <li>
-              <span class="hidNum">5</span>
-              <span>本月待收笔数</span>
-            </li>
-            <li>
-              <span class="hidNum">300</span>
-              <span>本月待收利息</span>
-            </li>
-            <li>
-              <span class="hidNum">5000</span>
-              <span>本月待收本金</span>
-            </li>
-            <li>
-              <span class="hidNum">100</span>
-              <span>本月待解冻返利  </span>
-            </li>
-          </ul>
-          <ul class="detailList clearfix">
-            <li>
-              <span class="hidNum">3000</span>
-              <span>本月奖励总额</span>
-            </li>
-            <li>
-              <span class="hidNum">300</span>
-              <span>本月活动奖励</span>
-            </li>
-            <li>
-              <span class="hidNum">5000</span>
-              <span>本月抽奖奖励</span>
-            </li>
-            <li>
-              <span class="hidNum">100</span>
-              <span>本月邀请好友奖励 </span>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div class="selfMesDe clearfix">
+      <ul class="detailList clearfix">
+        <li>
+          <span class="hidNum">3000</span>
+        </li>
+        <li>
+          <span class="hidNum">300</span>
+        </li>
+        <li>
+          <span class="hidNum">5000</span>
+        </li>
+        <li>
+          <span class="hidNum">100</span>
+        </li>
+        <li class="hid clearfix">
+          <span class="hidBtn">隐藏关键信息</span>
+        </li>
+      </ul>
+    </div>
+        <div class="date"></div>
 </body>
 <script>
 	var onoff = true;
@@ -104,5 +49,25 @@
           onoff = !onoff;
         }
     });
+        function time(){
+          var mydate = new Date();
+          var year = mydate.getFullYear();
+          var month = mydate.getMonth()+1;
+          var date = mydate.getDate();
+          var hours = mydate.getHours();
+          var minutes = mydate.getMinutes();
+          var se = mydate.getSeconds();
+          var str = "";
+          var timer = null;
+          str = year+'.'+toDoub(month)+'.'+toDoub(date)+' '+toDoub(hours)+':'+toDoub(minutes)+':'+toDoub(se);
+          function toDoub(n){
+            return n>=10?n:'0'+n;
+          };
+          $('.date').text(str);
+        }
+        time();
+        timer = setInterval(function(){
+          time();
+        },1000);
 </script>
 </html>

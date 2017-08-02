@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<section class="Recommend">
+    <ul class="RecommendContent clearFix">
+        <li class="RecommendList">
+            <!--首-->
+            <div class="RecommendFirst firstOrReZindex">
+                <div class="reCont1 color1 clearFix">正面</div>
+                <div class="reCont2RF reHover">
+                    <span>查看背面</span>
+                </div>
+            </div>
+            <!--复-->
+            <div class="RecommendReply firstOrRe">
+                <div class="reCont1 color2 clearFix">背面</div>
+                <div class="reCont2R reHover">
+                    <span>查看正面</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<script src="jquery-1.11.3.js"></script>
+<script>
+  $(document).on('click', '.reHover', function () {
+    var _this = $(this);
+    _this.parents('.RecommendFirst').css('zIndex', '2');
+    _this.parents().next('.RecommendReply').css('zIndex', '3');
+  });
+  $(document).on('click', '.reHover', function () {
+    var _this = $(this);
+    _this.parents().prev('.RecommendFirst').css('zIndex', '3');
+    _this.parents('.RecommendReply').css('zIndex', '2');
+  });
+  $(document).on('click', '.reHover', function () {
+    var _this = $(this);
+    _this.parents('.RecommendList').toggleClass('hover');
+  });
+</script>
+</body>
+</html>
